@@ -1,0 +1,1925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Queen City Lacrosse — Built to Compete</title>
+<meta name="description" content="Queen City Lacrosse — premium performance lacrosse equipment and apparel from Buffalo, New York. Carbon fiber lacrosse shafts, athletic apparel, and accessories. Built to compete.">
+<meta property="og:title" content="Queen City Lacrosse — Built to Compete">
+<meta property="og:description" content="Performance-driven lacrosse equipment and apparel for players who demand more from their game. From the Queen City to the field.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://monarchagencies.github.io/queen-city-lacrosse/">
+<meta property="og:image" content="https://monarchagencies.github.io/queen-city-lacrosse/images/og-team.jpg">
+<meta property="og:image:width" content="1206">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://monarchagencies.github.io/queen-city-lacrosse/images/og-team.jpg">
+<meta name="theme-color" content="#16325C">
+<link rel="preload" as="image" href="images/hero-team.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#16325C; --gold:#C4A468; --sgold:#D9C49A; --black:#111318; --char:#202630;
+  --white:#FFFFFF; --off:#F5F5F1; --gray:#E8EAED; --dnavy:#0D1D35; --steel:#8294AB;
+  --font-head:'Anton',Impact,sans-serif; --font-kicker:'Oswald',Impact,sans-serif; --font-body:'Inter',Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+html,body{overflow-x:clip}
+body{font-family:var(--font-body);background:var(--off);color:var(--char);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+input,select,textarea{font-family:inherit;font-size:16px}
+h1,h2,h3,h4{font-family:var(--font-head);font-weight:400;letter-spacing:.02em;text-transform:uppercase;line-height:1.05;color:var(--navy)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:var(--font-kicker);font-size:13px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.sec{padding:72px 0}
+.sec-head{margin-bottom:36px}
+.sec-head h2{font-size:clamp(34px,5vw,58px);margin:10px 0 12px}
+.sec-head p{max-width:640px;color:#4a5568;font-size:17px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;border:2px solid var(--navy);background:var(--navy);color:#fff;font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;border-radius:6px;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:var(--dnavy)}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:var(--dnavy)}
+.btn-gold:hover{background:#b3935a}
+.btn-ghost{background:transparent;color:var(--navy)}
+.btn-ghost:hover{background:var(--navy);color:#fff}
+.btn-light{background:var(--white);border-color:var(--white);color:var(--navy)}
+.btn-light:hover{background:var(--gray)}
+.btn-ghost-light{background:transparent;border-color:rgba(255,255,255,.7);color:#fff}
+.btn-ghost-light:hover{background:#fff;color:var(--navy);border-color:#fff}
+.btn:disabled{background:#c9cdd4;border-color:#c9cdd4;color:#6b7280;cursor:not-allowed}
+.btn-sm{min-height:44px;padding:0 20px;font-size:13px}
+.badge{display:inline-block;padding:4px 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;border-radius:3px;background:var(--gold);color:var(--dnavy)}
+.badge-new{background:var(--dnavy);color:#fff}
+.badge-soon{background:var(--char);color:#fff}
+.badge-core{background:var(--navy);color:#fff}
+.badge-graphic{background:var(--steel);color:#fff}
+/* Announcement */
+.announce{background:var(--dnavy);color:#fff;text-align:center;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:10px 16px}
+.announce span{color:var(--gold)}
+/* Header */
+header.site{position:sticky;top:0;z-index:60;background:var(--off);border-bottom:1px solid var(--gray);transition:box-shadow .25s}
+header.site.scrolled{box-shadow:0 6px 24px rgba(13,29,53,.12)}
+.nav-inner{max-width:1280px;margin:0 auto;padding:0 24px;height:76px;display:flex;align-items:center;gap:28px;transition:height .25s}
+header.site.scrolled .nav-inner{height:64px}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand-badge{width:46px;height:46px;border-radius:50%;background:#fff;border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0}
+.brand-badge img{width:38px;height:38px;object-fit:contain}
+.brand-word{font-family:var(--font-head);font-size:19px;line-height:1;color:var(--navy);text-transform:uppercase;letter-spacing:.03em}
+.brand-word em{font-style:normal;color:var(--gold)}
+.brand-word small{display:block;font-family:var(--font-body);font-size:9px;font-weight:800;letter-spacing:.42em;color:var(--steel);margin-top:3px}
+nav.main{display:flex;align-items:center;gap:4px;margin-left:8px}
+.nav-item{position:relative}
+.nav-link{display:block;padding:10px 14px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);position:relative}
+.nav-link::after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.nav-link:hover::after,.nav-item.open .nav-link::after{transform:scaleX(1)}
+.dropdown{position:absolute;top:100%;left:0;min-width:240px;background:#fff;border:1px solid var(--gray);border-top:3px solid var(--gold);border-radius:0 0 6px 6px;box-shadow:0 18px 40px rgba(13,30,56,.16);padding:10px 0;display:none;z-index:70}
+.nav-item.open .dropdown{display:block}
+.dropdown a{display:block;padding:11px 20px;font-size:14px;font-weight:600;color:var(--char)}
+.dropdown a:hover{background:var(--off);color:var(--navy)}
+.dropdown a small{display:block;font-size:12px;font-weight:400;color:#6b7280}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{position:relative;width:44px;height:44px;border:1px solid transparent;background:transparent;border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--navy)}
+.icon-btn:hover{background:var(--gray)}
+.icon-btn svg{width:22px;height:22px}
+.bag-count{position:absolute;top:2px;right:2px;min-width:19px;height:19px;padding:0 4px;border-radius:10px;background:var(--gold);color:var(--dnavy);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.hamburger{display:none}
+/* Mobile menu */
+.m-menu{position:fixed;inset:0;z-index:90;background:var(--dnavy);color:#fff;padding:24px;display:none;flex-direction:column;overflow-y:auto}
+.m-menu.open{display:flex}
+.m-menu-top{display:flex;align-items:center;justify-content:space-between}
+.m-menu .brand-word{color:#fff}
+.m-menu-links{margin-top:44px;display:flex;flex-direction:column;gap:6px}
+.m-menu-links a{font-family:var(--font-head);font-size:34px;text-transform:uppercase;color:#fff;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.m-menu-links a small{display:block;font-family:var(--font-body);font-size:13px;font-weight:500;color:var(--steel);letter-spacing:.05em;text-transform:none}
+.m-menu-foot{margin-top:auto;padding-top:32px;color:var(--steel);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+/* Hero */
+.hero{position:relative;min-height:640px;display:flex;align-items:flex-end;background:var(--dnavy);color:#fff;overflow:hidden}
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 15%}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,30,56,.25) 0%,rgba(13,30,56,.55) 55%,rgba(13,30,56,.92) 100%)}
+.hero-inner{position:relative;z-index:2;width:100%;max-width:1280px;margin:0 auto;padding:120px 24px 72px}
+.hero h1{color:#fff;font-size:clamp(56px,9vw,118px);line-height:.92;text-shadow:0 2px 24px rgba(0,0,0,.35)}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:560px;font-size:18px;color:rgba(255,255,255,.92);margin:20px 0 28px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-note{margin-top:26px;font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+/* Category tiles */
+.cat-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}
+.cat-tile{position:relative;border-radius:6px;overflow:hidden;background:var(--navy);min-height:340px;display:flex;align-items:flex-end;color:#fff;cursor:pointer}
+.cat-tile.tall{grid-row:span 2;min-height:560px}
+.cat-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.cat-tile:hover img{transform:scale(1.04)}
+.cat-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,30,56,0) 40%,rgba(13,30,56,.88) 100%)}
+.cat-body{position:relative;z-index:2;padding:28px}
+.cat-body h3{color:#fff;font-size:clamp(26px,3vw,38px)}
+.cat-body p{color:rgba(255,255,255,.85);margin:8px 0 16px;max-width:420px}
+.cat-link{font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+/* Shaft strip */
+.shaft-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.shaft-cell{background:#fff;border:1px solid var(--gray);border-radius:6px;padding:18px 12px 14px;text-align:center;cursor:pointer;transition:border-color .2s,transform .2s}
+.shaft-cell:hover{border-color:var(--gold);transform:translateY(-3px)}
+.shaft-cell img{height:230px;width:100%;object-fit:contain;margin:0 auto}
+.shaft-cell h4{font-size:15px;margin-top:10px}
+.shaft-cell .price{font-weight:700;color:var(--navy);font-size:14px}
+/* Editorial bands */
+.band{border-radius:6px;overflow:hidden;position:relative;background:var(--dnavy);color:#fff}
+.band-dark{background:var(--char)}
+.band-inner{padding:64px 48px;position:relative;z-index:2}
+.band-inner h2{color:#fff;font-size:clamp(34px,5vw,56px)}
+.band-inner h2 span{color:var(--gold)}
+.band-inner p{color:rgba(255,255,255,.85);max-width:520px;margin:14px 0 24px;font-size:17px}
+.band-img{position:absolute;inset:0}
+.band-img img{width:100%;height:100%;object-fit:cover}
+.band-img::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,30,56,.94) 0%,rgba(13,30,56,.72) 55%,rgba(13,30,56,.25) 100%)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+.split .band-inner{padding:56px 40px}
+.img-card{border-radius:6px;overflow:hidden;position:relative;min-height:340px;background:var(--navy)}
+.img-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* Product cards */
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.grid.cols-3{grid-template-columns:repeat(3,1fr)}
+.card{background:#fff;border:1px solid var(--gray);border-radius:6px;overflow:hidden;cursor:pointer;transition:transform .25s,box-shadow .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 32px rgba(13,30,56,.12);border-color:var(--gold)}
+.card-img{position:relative;aspect-ratio:4/5;background:var(--off);overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:opacity .3s}
+.card-img img.alt{position:absolute;inset:0;opacity:0}
+.card:hover .card-img img.alt{opacity:1}
+.card-img .badge{position:static}
+.card-badges{position:absolute;top:12px;left:12px;z-index:3;display:flex;gap:6px;flex-wrap:wrap}
+.card-qv{position:absolute;left:12px;right:12px;bottom:12px;z-index:3;background:rgba(13,30,56,.92);color:#fff;text-align:center;padding:12px;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;border-radius:6px;opacity:0;transform:translateY(8px);transition:opacity .25s,transform .25s;border:none;width:calc(100% - 24px)}
+.card:hover .card-qv{opacity:1;transform:translateY(0)}
+.card-body{padding:16px 16px 18px}
+.card-body h3{font-size:16px;letter-spacing:.02em}
+.card-meta{font-size:13px;color:#6b7280;margin-top:4px}
+.card-row{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.card-price{font-weight:800;color:var(--navy);font-size:16px}
+.card-avail{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#9a6b1f}
+.card-avail.soon{color:#9a6b1f}
+/* Shop layout */
+.shop-layout{display:grid;grid-template-columns:250px 1fr;gap:32px;align-items:start}
+.filters{background:#fff;border:1px solid var(--gray);border-radius:6px;padding:22px;position:sticky;top:96px}
+.filters h3{font-size:15px;margin-bottom:4px}
+.filter-group{padding:16px 0;border-bottom:1px solid var(--gray)}
+.filter-group:last-child{border-bottom:none}
+.filter-group h4{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);margin-bottom:10px}
+.chip{display:inline-block;padding:8px 13px;margin:0 6px 8px 0;border:1px solid var(--gray);border-radius:6px;background:#fff;font-size:13px;font-weight:600;color:var(--char);cursor:pointer;min-height:38px}
+.chip:hover{border-color:var(--navy)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.shop-bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:20px}
+.search-box{flex:1;min-width:220px;display:flex;align-items:center;background:#fff;border:1px solid var(--gray);border-radius:6px;padding:0 14px}
+.search-box input{border:none;outline:none;flex:1;height:48px;background:transparent}
+.search-box svg{width:18px;height:18px;color:var(--steel);flex-shrink:0}
+.sort-box{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--gray);border-radius:6px;padding:0 12px;height:48px}
+.sort-box label{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--steel)}
+.sort-box select{border:none;outline:none;background:transparent;font-weight:600;color:var(--navy)}
+.shop-count{font-size:14px;color:#6b7280;margin-bottom:16px}
+.empty{grid-column:1/-1;text-align:center;padding:64px 20px;background:#fff;border:1px solid var(--gray);border-radius:6px}
+.empty h3{font-size:24px;margin-bottom:8px}
+.empty p{color:#6b7280}
+/* Detail images row */
+.detail-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.detail-cell{border-radius:6px;overflow:hidden;background:#fff;border:1px solid var(--gray)}
+.detail-cell img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.detail-cell p{padding:14px 16px;font-size:13px;font-weight:600;color:var(--navy)}
+/* Quote */
+.quote-block{background:var(--dnavy);color:#fff;border-radius:6px;padding:56px 48px}
+.quote-block h2{color:#fff;font-size:clamp(24px,3.4vw,40px);line-height:1.25}
+.quote-block blockquote{font-family:var(--font-head);font-size:clamp(24px,3.4vw,40px);line-height:1.25;text-transform:uppercase;letter-spacing:.02em}
+.quote-block blockquote span{color:var(--gold)}
+.quote-block p{margin-top:18px;color:rgba(255,255,255,.8);max-width:640px}
+/* Forms */
+.form-card{background:#fff;border:1px solid var(--gray);border-radius:6px;padding:32px;max-width:640px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;border:1px solid var(--gray);border-radius:6px;padding:13px 14px;background:#fff;outline:none}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(196,164,104,.25)}
+.field textarea{min-height:120px;resize:vertical}
+.form-note{font-size:13px;color:#6b7280;margin-top:12px}
+.confirm{background:#eef6ef;border:1px solid #b7d9bd;border-radius:6px;padding:20px;margin-top:16px}
+.confirm strong{color:#2f7d4f}
+/* Newsletter */
+.news-band{background:var(--navy);color:#fff;border-radius:6px;padding:56px 48px;display:flex;gap:40px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.news-band h2{color:#fff;font-size:clamp(28px,4vw,44px)}
+.news-band h2 span{color:var(--gold)}
+.news-band p{color:rgba(255,255,255,.85);margin-top:10px;max-width:460px}
+.news-form{display:flex;gap:10px;flex-wrap:wrap}
+.news-form input{width:300px;max-width:100%;height:52px;border:2px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);border-radius:6px;padding:0 16px;color:#fff;outline:none}
+.news-form input::placeholder{color:rgba(255,255,255,.6)}
+/* Accordion */
+.acc{border-top:1px solid var(--gray)}
+.acc-item{border-bottom:1px solid var(--gray);background:#fff}
+.acc-btn{width:100%;text-align:left;background:none;border:none;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:16px;font-weight:700;color:var(--navy)}
+.acc-btn span{font-size:22px;color:var(--gold);flex-shrink:0}
+.acc-panel{display:none;padding:0 22px 22px;color:#4a5568}
+.acc-item.open .acc-panel{display:block}
+/* Modals + drawer */
+.overlay{position:fixed;inset:0;background:rgba(13,30,56,.6);z-index:100;display:none}
+.overlay.open{display:block}
+.modal{position:fixed;z-index:110;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:6px;width:min(960px,92%);max-height:calc(100vh - 40px);overflow-y:auto;display:none}
+.modal.open{display:block}
+.modal-small{width:min(520px,92%)}
+.modal-close{position:absolute;top:12px;right:12px;z-index:5;width:44px;height:44px;border-radius:6px;border:1px solid var(--gray);background:#fff;font-size:20px;color:var(--navy)}
+.qv-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.qv-gallery{background:var(--off);padding:24px}
+.qv-main{position:relative;aspect-ratio:4/5;background:#fff;border:1px solid var(--gray);border-radius:6px;overflow:hidden}
+.qv-main img{width:100%;height:100%;object-fit:cover}
+.qv-main img.zoomed{transform:scale(1.9);transform-origin:50% 28%}
+.qv-thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.qv-thumb{width:72px;height:72px;border:2px solid var(--gray);border-radius:6px;overflow:hidden;padding:0;background:#fff;flex-shrink:0}
+.qv-thumb.on{border-color:var(--gold)}
+.qv-thumb img{width:100%;height:100%;object-fit:cover}
+.qv-info{padding:32px 32px 28px}
+.qv-info h2{font-size:30px;margin:8px 0 6px}
+.qv-price{font-size:24px;font-weight:800;color:var(--navy)}
+.qv-desc{color:#4a5568;margin:14px 0 20px}
+.opt-label{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);margin:16px 0 8px}
+.opt-row{display:flex;gap:8px;flex-wrap:wrap}
+.opt{padding:10px 16px;border:1px solid var(--gray);border-radius:6px;background:#fff;font-weight:700;font-size:14px;min-height:44px}
+.opt.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.qty-row{display:flex;align-items:center;gap:0;margin:16px 0}
+.qty-btn{width:48px;height:48px;border:1px solid var(--gray);background:#fff;font-size:20px;font-weight:700}
+.qty-num{width:56px;height:48px;border-top:1px solid var(--gray);border-bottom:1px solid var(--gray);display:flex;align-items:center;justify-content:center;font-weight:800}
+.qv-add{width:100%;margin-top:8px}
+.qv-meta{font-size:13px;color:#6b7280;margin-top:14px;line-height:1.8}
+.tabs{display:flex;gap:0;border-bottom:2px solid var(--gray);margin-top:28px;flex-wrap:nowrap;overflow-x:auto}
+.tab-btn{padding:12px 18px;background:none;border:none;font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#6b7280;border-bottom:2px solid transparent;margin-bottom:-2px;white-space:nowrap;flex-shrink:0}
+.tab-btn.on{color:var(--navy);border-bottom-color:var(--gold)}
+.tab-panel{padding:18px 2px;color:#4a5568;font-size:15px}
+.tab-panel{display:none}
+.tab-panel.on{display:block}
+.related{padding:28px 32px;border-top:1px solid var(--gray)}
+.related h3{font-size:20px;margin-bottom:16px}
+.related .grid{grid-template-columns:repeat(3,1fr)}
+/* Drawer */
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:#fff;z-index:110;transform:translateX(105%);transition:transform .35s;display:flex;flex-direction:column}
+.drawer.open{transform:translateX(0)}
+.drawer-head{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--gray)}
+.drawer-head h3{font-size:20px}
+.drawer-body{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column}
+.bag-item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--gray);flex-shrink:0}
+.bag-item img{width:76px;height:92px;object-fit:cover;border:1px solid var(--gray);border-radius:6px;flex-shrink:0}
+.bag-item-info{flex:1}
+.bag-item-info h4{font-size:14px}
+.bag-item-info p{font-size:13px;color:#6b7280}
+.bag-item-row{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+.bag-qty{display:flex;align-items:center}
+.bag-qty button{width:32px;height:32px;border:1px solid var(--gray);background:#fff;font-weight:700}
+.bag-qty span{width:34px;text-align:center;font-weight:700}
+.bag-remove{background:none;border:none;color:#b91c1c;font-size:13px;font-weight:600}
+.bag-empty{margin:auto;text-align:center;padding:48px 12px;color:#6b7280}
+.drawer-foot{border-top:1px solid var(--gray);padding:20px 24px}
+.subtotal-row{display:flex;justify-content:space-between;font-weight:800;font-size:17px;color:var(--navy);margin-bottom:14px}
+.drawer-foot .btn{width:100%}
+.drawer-note{font-size:12px;color:#6b7280;text-align:center;margin-top:10px}
+/* Footer */
+footer.site{background:var(--dnavy);color:#fff;margin-top:0}
+.foot-top{padding:64px 0 40px;display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1.4fr;gap:36px}
+.foot-brand .brand-word{color:#fff;font-size:22px}
+.foot-brand p{color:rgba(255,255,255,.7);margin:14px 0;font-size:14px;max-width:280px}
+.foot-crest{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.foot-crest .brand-badge{width:56px;height:56px}
+.foot-crest .brand-badge img{width:46px;height:46px}
+footer.site h4{color:#fff;font-size:14px;letter-spacing:.14em;margin-bottom:16px}
+footer.site ul{list-style:none}
+footer.site ul li{margin-bottom:10px}
+footer.site ul a,footer.site ul span{color:rgba(255,255,255,.75);font-size:14px}
+footer.site ul a:hover{color:var(--gold)}
+.foot-news input{width:100%;height:48px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);border-radius:6px;padding:0 14px;color:#fff;outline:none;margin-bottom:10px}
+.foot-news input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(196,164,104,.25)}
+.foot-news input::placeholder{color:rgba(255,255,255,.55)}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.14);padding:22px 0;font-size:13px;color:rgba(255,255,255,.6)}
+.foot-bottom .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.foot-follow-h{margin-top:24px}
+.social-soon{display:inline-flex;align-items:center;gap:10px;background:none;border:none;color:rgba(255,255,255,.75);font-size:14px;padding:4px 0}
+.social-soon:hover{color:var(--gold)}
+.social-soon svg{width:18px;height:18px;flex-shrink:0}
+.social-note{font-size:12px;color:rgba(255,255,255,.55);margin-top:8px}
+.form-error{display:none;background:#fdf0f0;border:1px solid #e5b4b4;color:#8c1d1d;border-radius:6px;padding:12px 16px;margin-top:12px;font-size:14px}
+/* Toast */
+.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,80px);background:var(--dnavy);color:#fff;padding:14px 22px;border-radius:6px;font-weight:600;font-size:14px;z-index:130;opacity:0;transition:transform .3s,opacity .3s;pointer-events:none;max-width:92%;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+/* Page headers */
+.page-head{padding:56px 0 8px}
+.page-head h1{font-size:clamp(40px,6vw,68px)}
+.page-head p{max-width:640px;color:#4a5568;font-size:17px;margin-top:12px}
+.story-hero{border-radius:6px;overflow:hidden;position:relative;min-height:420px;background:var(--dnavy);margin:32px 0}
+.story-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.story-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,30,56,.15),rgba(13,30,56,.55))}
+.story-hero .wordmark{position:absolute;z-index:2;bottom:28px;left:28px;background:#fff;border-radius:6px;padding:14px 20px}
+.story-hero .wordmark img{height:64px;width:auto}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+.value-card{background:#fff;border:1px solid var(--gray);border-radius:6px;padding:24px}
+.value-card h3{font-size:18px;margin-bottom:8px}
+.value-card p{font-size:14px;color:#4a5568}
+.legal{max-width:760px;background:#fff;border:1px solid var(--gray);border-radius:6px;padding:36px;margin-top:24px}
+.legal h2{font-size:22px;margin:22px 0 8px}
+.legal h2:first-child{margin-top:0}
+.legal p{color:#4a5568;margin-bottom:12px}
+.drop-strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}
+.drop-card{flex:0 0 220px;background:#fff;border:1px solid var(--gray);border-radius:6px;padding:16px;text-align:center;cursor:pointer}
+.drop-card img{height:190px;width:100%;object-fit:contain;margin:0 auto}
+.drop-card h4{font-size:14px;margin-top:10px}
+.drop-card .price{font-weight:800;color:var(--navy);font-size:14px}
+/* Reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .55s,transform .55s}
+.reveal.in{opacity:1;transform:none}
+/* QC monogram (simplified mark for small placements) */
+.qc-mono{width:52px;height:52px;border-radius:50%;background:var(--navy);border:2px solid var(--gold);display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-head);font-size:20px;letter-spacing:.02em;color:var(--gold);flex-shrink:0}
+.qc-mono.sm{width:40px;height:40px;font-size:16px;border-width:2px}
+.qc-mono.lg{width:72px;height:72px;font-size:28px}
+/* Gold divider */
+.gold-rule{width:64px;height:3px;background:var(--gold);border:none;margin:18px 0}
+/* Brand intro */
+.brand-intro{background:var(--white);border-bottom:1px solid var(--gray)}
+.brand-intro-inner{max-width:860px;margin:0 auto;text-align:center;padding:64px 24px}
+.brand-intro-inner .qc-mono{margin-bottom:22px}
+.brand-intro-inner p{font-family:var(--font-head);font-size:clamp(22px,3.2vw,32px);line-height:1.3;text-transform:uppercase;color:var(--navy);letter-spacing:.02em}
+.brand-intro-inner p span{color:var(--gold)}
+/* Final CTA */
+.final-cta{background:var(--dnavy);color:#fff;border-radius:6px;padding:72px 48px;text-align:center;position:relative;overflow:hidden}
+.final-cta::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:120px;height:3px;background:var(--gold)}
+.final-cta h2{color:#fff;font-size:clamp(36px,5.4vw,60px)}
+.final-cta h2 span{color:var(--gold)}
+.final-cta p{color:rgba(255,255,255,.85);margin:14px 0 26px;font-size:17px}
+/* Mega dropdown */
+.dropdown-mega{min-width:560px;padding:18px 22px;display:none;grid-template-columns:1fr 1fr;gap:8px 28px}
+.nav-item.open .dropdown-mega{display:grid}
+.dropdown-mega .dd-col h5{font-family:var(--font-kicker);font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:8px 0 4px}
+.dropdown-mega a{display:flex;gap:12px;align-items:center;padding:9px 8px;border-radius:6px}
+.dropdown-mega a:hover{background:var(--off)}
+.dropdown-mega a img{width:52px;height:52px;object-fit:cover;border-radius:6px;border:1px solid var(--gray);flex-shrink:0}
+.dropdown-mega a .dd-t{font-size:14px;font-weight:700;color:var(--char);line-height:1.25}
+.dropdown-mega a small{display:block;font-size:12px;font-weight:400;color:#6b7280;line-height:1.35}
+/* Search overlay */
+.search-overlay{position:fixed;inset:0;z-index:120;background:rgba(13,29,53,.96);color:#fff;display:none;padding:90px 24px 40px;overflow-y:auto}
+.search-overlay.open{display:block}
+.search-overlay-inner{max-width:760px;margin:0 auto}
+.search-overlay input{width:100%;background:transparent;border:none;border-bottom:2px solid var(--gold);color:#fff;font-family:var(--font-head);font-size:clamp(28px,5vw,44px);text-transform:uppercase;letter-spacing:.02em;padding:10px 4px;outline:none}
+.search-overlay input::placeholder{color:rgba(255,255,255,.4)}
+.search-results{margin-top:28px;display:flex;flex-direction:column}
+.search-hit{display:flex;gap:16px;align-items:center;padding:14px 8px;border-bottom:1px solid rgba(255,255,255,.14);cursor:pointer}
+.search-hit:hover{background:rgba(255,255,255,.06)}
+.search-hit img{width:56px;height:68px;object-fit:cover;border-radius:6px;background:#fff;flex-shrink:0}
+.search-hit .sh-name{font-weight:700;font-size:16px}
+.search-hit .sh-meta{font-size:13px;color:var(--sgold)}
+.search-hit .sh-price{margin-left:auto;font-weight:800;color:#fff;white-space:nowrap}
+.search-empty{padding:36px 8px;color:rgba(255,255,255,.7);text-align:center}
+.search-close{position:absolute;top:22px;right:24px;width:48px;height:48px;border-radius:6px;border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;font-size:22px}
+/* Lightbox */
+.lightbox{position:fixed;inset:0;z-index:130;background:rgba(13,29,53,.94);display:none;align-items:center;justify-content:center;flex-direction:column}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:78vh;object-fit:contain;cursor:zoom-in;background:#fff;border-radius:6px}
+.lightbox img.zoomed{cursor:zoom-out;transform:scale(1.9)}
+.lightbox-cap{color:#fff;margin-top:16px;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+.lightbox-btn{position:absolute;width:48px;height:48px;border-radius:6px;border:1px solid rgba(255,255,255,.4);background:rgba(13,29,53,.6);color:#fff;font-size:22px;display:flex;align-items:center;justify-content:center}
+.lightbox-btn.prev{left:16px;top:50%;transform:translateY(-50%)}
+.lightbox-btn.next{right:16px;top:50%;transform:translateY(-50%)}
+.lightbox-btn.close{top:16px;right:16px}
+/* Product page */
+.pd-wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:start}
+.pd-gallery{position:sticky;top:96px}
+.pd-main{position:relative;aspect-ratio:4/5;background:#fff;border:1px solid var(--gray);border-radius:6px;overflow:hidden;cursor:zoom-in}
+.pd-main img{width:100%;height:100%;object-fit:cover}
+.pd-main img.zoomed{transform:scale(1.9);transform-origin:50% 28%}
+.pd-thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.pd-thumb{width:76px;height:76px;border:2px solid var(--gray);border-radius:6px;overflow:hidden;padding:0;background:#fff;flex-shrink:0}
+.pd-thumb.on{border-color:var(--gold)}
+.pd-thumb img{width:100%;height:100%;object-fit:cover}
+/* 360 viewer */
+.view-toggle{display:flex;gap:8px;margin-bottom:12px}
+.vt-btn{flex:1;padding:12px 10px;border:1px solid var(--gray);background:#fff;border-radius:6px;font-family:var(--font-kicker);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#6b7280;cursor:pointer;min-height:44px}
+.vt-btn.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.viewer360{position:relative}
+.v360-stage{position:relative;aspect-ratio:4/5;background:#f5f5f5;border:1px solid var(--gray);border-radius:6px;overflow:hidden;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.v360-stage:active{cursor:grabbing}
+.v360-stage img{width:100%;height:100%;object-fit:contain;transition:opacity .18s ease}
+.v360-stage img.v360-fade{opacity:.35}
+.v360-stage img.zoomed{transform:scale(1.9);transform-origin:50% 28%}
+.v360-badge{position:absolute;top:14px;left:14px;background:var(--dnavy);color:#fff;font-size:12px;font-weight:800;letter-spacing:.14em;padding:6px 10px;border-radius:3px;pointer-events:none;z-index:2}
+.v360-hint{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);background:rgba(13,29,53,.85);color:#fff;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;padding:8px 14px;border-radius:20px;pointer-events:none;transition:opacity .4s;z-index:2;white-space:nowrap}
+.v360-hint.hide{opacity:0}
+.v360-arrow{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:6px;border:1px solid rgba(13,29,53,.25);background:rgba(255,255,255,.92);color:var(--navy);font-size:24px;line-height:1;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:3;padding:0}
+.v360-arrow.prev{left:12px}
+.v360-arrow.next{right:12px}
+.v360-dots{display:flex;justify-content:center;gap:2px;margin-top:12px;flex-wrap:wrap}
+.v360-dot{width:44px;height:44px;background:transparent;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+.v360-dot .dot{width:10px;height:10px;border-radius:50%;background:#c9ced6;display:block;transition:all .2s}
+.v360-dot.on .dot{background:var(--gold);transform:scale(1.35)}
+.v360-bar{display:flex;align-items:center;justify-content:space-between;margin-top:4px}
+.v360-play{min-height:44px;padding:10px 16px;border:1px solid var(--gray);background:#fff;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer;color:var(--navy)}
+.v360-play.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.v360-angle{font-family:var(--font-head);font-size:20px;color:var(--navy);letter-spacing:.04em}
+.badge-360{background:var(--dnavy);color:var(--sgold)}
+.pd-info h1{font-size:clamp(30px,4vw,44px);margin:10px 0 6px}
+.pd-crumb{font-size:13px;color:#6b7280;letter-spacing:.06em;text-transform:uppercase}
+.pd-crumb a:hover{color:var(--navy)}
+.pd-price{font-size:26px;font-weight:800;color:var(--navy)}
+.pd-desc{color:#4a5568;margin:16px 0 8px;font-size:16px}
+.pd-wait{margin-top:20px}
+.nophoto{background:var(--dnavy);border-radius:6px;aspect-ratio:4/5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:#fff;text-align:center;padding:32px}
+.nophoto p{color:rgba(255,255,255,.8);font-size:15px;max-width:340px}
+.nophoto .qc-mono{width:84px;height:84px;font-size:32px}
+.nophoto-card{background:var(--dnavy);aspect-ratio:4/5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:#fff;text-align:center;padding:20px}
+.nophoto-card p{font-size:12px;color:var(--sgold);letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+/* Comparison table */
+.cmp-wrap{overflow-x:auto;background:#fff;border:1px solid var(--gray);border-radius:6px;margin-top:24px}
+table.cmp{width:100%;border-collapse:collapse;min-width:760px;font-size:14px}
+table.cmp th{font-family:var(--font-kicker);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);text-align:left;padding:14px 16px;border-bottom:2px solid var(--gold);background:var(--off);white-space:nowrap}
+table.cmp td{padding:13px 16px;border-bottom:1px solid var(--gray);color:#4a5568}
+table.cmp td:first-child{font-weight:700;color:var(--navy);white-space:nowrap}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.soon{color:#9a6b1f;font-weight:600}
+/* Values with images */
+.values-img{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:32px}
+.value-img-card{background:#fff;border:1px solid var(--gray);border-radius:6px;overflow:hidden}
+.value-img-card img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.value-img-card .vi-body{padding:22px 24px 26px}
+.value-img-card h3{font-size:20px;margin-bottom:8px}
+.value-img-card p{font-size:14px;color:#4a5568}
+/* Community cards */
+.comm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.comm-card{background:#fff;border:1px solid var(--gray);border-radius:6px;padding:24px}
+.comm-card h3{font-size:18px;margin:8px 0}
+.comm-card p{font-size:14px;color:#4a5568}
+.comm-card .future{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#9a6b1f;background:#fdf3e0;border:1px solid #ecd9a8;border-radius:3px;padding:4px 9px}
+/* Placeholder note */
+.placeholder-note{background:#fdf6e3;border:1px solid #ecd9a8;border-radius:6px;padding:16px 20px;font-size:14px;color:#6b5a1f;margin:0 0 24px}
+.placeholder-note strong{color:#7a5c14}
+/* Shaft banner strip */
+.shaft-banner{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 12px}
+.shaft-banner .shaft-cell{flex:0 0 190px}
+/* Responsive */
+@media (max-width:1024px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .shaft-strip{grid-template-columns:repeat(3,1fr)}
+  .foot-top{grid-template-columns:1fr 1fr 1fr}
+  .values{grid-template-columns:1fr 1fr}
+}
+@media (max-width:900px){
+  nav.main{display:none}
+  .hamburger{display:flex}
+  .shop-layout{grid-template-columns:1fr}
+  .filters{position:static}
+  .qv-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:1fr}
+  .cat-tile.tall{grid-row:auto;min-height:380px}
+  .split{grid-template-columns:1fr}
+  .pd-wrap{grid-template-columns:1fr;gap:28px}
+  .pd-gallery{position:static}
+  .values-img{grid-template-columns:1fr}
+  .comm-grid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .sec{padding:52px 0}
+  .grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .grid.cols-3{grid-template-columns:repeat(2,1fr)}
+  .shaft-strip{grid-template-columns:repeat(2,1fr)}
+  .detail-row{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .values{grid-template-columns:1fr}
+  .foot-top{grid-template-columns:1fr 1fr}
+  .hero{min-height:560px}
+  .band-inner,.quote-block,.news-band{padding:40px 24px}
+  .related .grid{grid-template-columns:repeat(2,1fr)}
+  .qv-info{padding:24px 20px}
+  .card-qv{display:none}
+  .brand-word{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<div class="announce">INTRODUCING QUEEN CITY — <span>BUILT TO COMPETE.</span></div>
+<header class="site">
+  <div class="nav-inner">
+    <a class="brand" href="#/" aria-label="Queen City Lacrosse home">
+      <span class="brand-badge"><img src="images/logo-emblem.png" alt="Queen City Lacrosse crown Q emblem"></span>
+      <span class="brand-word"><em>Queen City</em><br>Lacrosse<small>BUFFALO, NEW YORK</small></span>
+    </a>
+    <nav class="main" aria-label="Main navigation">
+      <div class="nav-item" data-nav>
+        <a class="nav-link" href="#/shop" data-navlink>Shop</a>
+        <div class="dropdown dropdown-mega">
+          <div class="dd-col">
+            <h5>Shop</h5>
+            <a href="#/shop" data-shop="all"><img src="images/shaft-classic.webp" alt="Queen City Classic shaft"><span><span class="dd-t">All Products</span><small>Every shaft, tee, and accessory</small></span></a>
+            <a href="#/shop" data-shop="newest"><span><span class="dd-t">New Arrivals</span><small>Redline and Drop 001, first up</small></span></a>
+            <h5>Shafts</h5>
+            <a href="#/shafts"><span><span class="dd-t">All Shafts</span><small>Find your game</small></span></a>
+            <a href="#/shop" data-shop="coll:core"><span><span class="dd-t">Core Collection</span><small>The foundational six</small></span></a>
+            <a href="#/shop" data-shop="coll:graphic"><span><span class="dd-t">Graphic Series</span><small>Bold designs, one standard</small></span></a>
+            <a href="#/shop" data-shop="coll:limited"><span><span class="dd-t">Limited Editions</span><small>Drop 001 · first release</small></span></a>
+          </div>
+          <div class="dd-col">
+            <h5>Apparel</h5>
+            <a href="#/apparel" data-apparel="performance"><img src="images/apparel-performance-front.webp" alt="Queen City Performance Tee"><span><span class="dd-t">Performance Tees</span><small>Training and game-day tees</small></span></a>
+            <a href="#/apparel" data-apparel="everyday"><span><span class="dd-t">Everyday Tees</span><small>Clean, wearable, every day</small></span></a>
+            <a href="#/apparel" data-apparel="longsleeve"><span><span class="dd-t">Long Sleeves</span><small>Sleeve graphics, small emblem</small></span></a>
+            <h5>Accessories</h5>
+            <a href="#/accessories" data-acc="mesh"><img src="images/acc-grip-tape.webp" alt="Queen City grip tape"><span><span class="dd-t">Mesh</span><small>Mesh kits for your head</small></span></a>
+            <a href="#/accessories" data-acc="strings"><span><span class="dd-t">Strings</span><small>Shooting and sidewall kits</small></span></a>
+            <a href="#/accessories" data-acc="grip"><span><span class="dd-t">Grip</span><small>Grip tape with gold QC detail</small></span></a>
+            <a href="#/accessories" data-acc="other"><span><span class="dd-t">Other Accessories</span><small>Stickers, socks, hats, bags</small></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item"><a class="nav-link" href="#/shafts">Shafts</a></div>
+      <div class="nav-item"><a class="nav-link" href="#/apparel" data-apparel="all">Apparel</a></div>
+      <div class="nav-item"><a class="nav-link" href="#/accessories" data-acc="all">Accessories</a></div>
+      <div class="nav-item"><a class="nav-link" href="#/story">Our Story</a></div>
+    </nav>
+    <div class="nav-right">
+      <button class="icon-btn" id="searchBtn" aria-label="Search products">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+      <button class="icon-btn" id="bagBtn" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="bag-count" id="bagCount" style="display:none">0</span>
+      </button>
+      <button class="icon-btn hamburger" id="menuBtn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="m-menu" id="mMenu" aria-label="Mobile menu">
+  <div class="m-menu-top">
+    <span style="display:flex;align-items:center;gap:12px"><span class="qc-mono sm">QC</span><span class="brand-word"><em style="color:var(--gold);font-style:normal">Queen City</em><br>Lacrosse</span></span>
+    <button class="icon-btn" id="menuClose" aria-label="Close menu" style="color:#fff">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div style="display:flex;gap:10px;margin-top:28px">
+    <button class="btn btn-gold btn-sm" id="mSearchBtn" style="flex:1">Search</button>
+    <button class="btn btn-ghost-light btn-sm" id="mBagBtn" style="flex:1">Bag (<span id="mBagCount">0</span>)</button>
+  </div>
+  <div class="m-menu-links">
+    <a href="#/shop" data-shop="all">Shop All<small>Every product, one place</small></a>
+    <a href="#/shafts">Lacrosse Shafts<small>Core, Graphic Series &amp; Limited Editions</small></a>
+    <a href="#/apparel" data-apparel="all">Apparel<small>Tees &amp; training wear</small></a>
+    <a href="#/accessories" data-acc="all">Accessories<small>Grip, mesh, strings &amp; more</small></a>
+    <a href="#/community">Join the Team<small>Player community — coming soon</small></a>
+    <a href="#/story">Our Story<small>Built from the game</small></a>
+    <a href="#/faq">FAQ<small>Questions, answered</small></a>
+    <a href="#/contact">Contact<small>Talk to Queen City</small></a>
+  </div>
+  <div class="m-menu-foot">Buffalo, New York &middot; Built to Compete.</div>
+</div>
+<main id="app"></main>
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="foot-crest">
+          <span class="brand-badge"><img src="images/logo-emblem-light.png" alt="Queen City Lacrosse crown Q emblem"></span>
+          <span class="brand-word"><em>Queen City</em><br>Lacrosse</span>
+        </div>
+        <p><strong style="color:var(--gold)">BUILT TO COMPETE.</strong><br>Performance-driven lacrosse equipment and apparel from Buffalo, New York.</p>
+        <p style="font-size:12px;letter-spacing:.2em">BUFFALO, NEW YORK</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#/shop" data-shop="all">Shop All</a></li>
+          <li><a href="#/shafts">Shafts</a></li>
+          <li><a href="#/apparel" data-apparel="all">Apparel</a></li>
+          <li><a href="#/accessories" data-acc="all">Accessories</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#/story">Our Story</a></li>
+          <li><a href="#/community">Join the Team</a></li>
+          <li><a href="#/contact">Contact</a></li>
+          <li><a href="#/faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#/shipping">Shipping &amp; Returns</a></li>
+          <li><a href="#/privacy">Privacy Policy</a></li>
+          <li><a href="#/terms">Terms &amp; Conditions</a></li>
+        </ul>
+        <h4 class="foot-follow-h">Follow</h4>
+        <ul>
+          <li><button type="button" class="social-soon" onclick="toast('Queen City on Instagram — coming soon.')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg><span>Instagram</span></button></li>
+          <li><button type="button" class="social-soon" onclick="toast('Queen City on TikTok — coming soon.')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg><span>TikTok</span></button></li>
+          <li><button type="button" class="social-soon" onclick="toast('Queen City on YouTube — coming soon.')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.5 12s0-3.5-.5-5c-.3-.9-1-1.5-1.9-1.7C18.3 5 12 5 12 5s-6.3 0-8.1.3c-.9.2-1.6.8-1.9 1.7-.5 1.5-.5 5-.5 5s0 3.5.5 5c.3.9 1 1.5 1.9 1.7 1.8.3 8.1.3 8.1.3s6.3 0 8.1-.3c.9-.2 1.6-.8 1.9-1.7.5-1.5.5-5 .5-5z"/><path d="m10 9.5 5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg><span>YouTube</span></button></li>
+        </ul>
+        <p class="social-note">Social accounts open with Drop 001.</p>
+      </div>
+      <div class="foot-news">
+        <h4>Get the latest from Queen City</h4>
+        <p style="color:rgba(255,255,255,.7);font-size:14px;margin-bottom:14px">New releases, product updates, and everything happening around the game.</p>
+        <form data-newsletter>
+          <input type="email" name="email" placeholder="Your email address" required aria-label="Email address">
+          <button class="btn btn-gold" type="submit" style="width:100%">Subscribe</button>
+        </form>
+        <div class="confirm" data-news-confirm style="display:none;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.25);color:#fff;margin-top:12px"><strong style="color:var(--gold)">You're on the launch list — on this device.</strong><br>Email signup isn't connected yet, so this address is stored on this device only and hasn't been sent anywhere.</div>
+        <div class="form-error" data-news-error style="display:none"></div>
+      </div>
+    </div>
+    <div class="honesty">Queen City Lacrosse is in development. Product images are conceptual design previews; final specifications and availability coming soon.</div>
+    <div class="foot-bottom">
+      <div class="wrap" style="padding:0">
+        <span>QUEEN CITY LACROSSE &copy; 2026. ALL RIGHTS RESERVED.</span>
+        <span>BUFFALO, NEW YORK &middot; BUILT TO COMPETE.</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="overlay" id="overlay"></div>
+<div class="modal" id="qvModal" role="dialog" aria-modal="true" aria-label="Product details"></div>
+<div class="modal modal-small" id="waitModal" role="dialog" aria-modal="true" aria-label="Join the waitlist">
+  <button class="modal-close" data-close-modal aria-label="Close">&times;</button>
+  <div style="padding:36px 32px 32px">
+    <span class="eyebrow">Checkout is not live yet</span>
+    <h2 style="font-size:28px;margin:10px 0">Join the list for first access</h2>
+    <p style="color:#4a5568">Drop 001 launches soon. Join the waitlist and we'll email you the moment checkout opens — once the email service is connected, your signup is saved on this device in the meantime.</p>
+    <form data-waitlist style="margin-top:20px">
+      <div class="field"><label for="waitEmail">Email address</label><input type="email" id="waitEmail" name="email" placeholder="you@example.com" required></div>
+      <button class="btn btn-gold" type="submit" style="width:100%">Notify me when Drop 001 opens</button>
+    </form>
+    <div class="confirm" data-wait-confirm style="display:none"><strong>You're on the waitlist — on this device.</strong><br>Email signup isn't connected yet, so this address is stored on this device only and hasn't been sent anywhere.</div>
+    <div class="form-error" data-wait-error style="display:none"></div>
+  </div>
+</div>
+<aside class="drawer" id="bagDrawer" aria-label="Shopping bag">
+  <div class="drawer-head"><h3>Your Bag <span id="bagHeadCount"></span></h3><button class="icon-btn" data-close-bag aria-label="Close bag">&times;</button></div>
+  <div class="drawer-body" id="bagBody"></div>
+  <div class="drawer-foot" id="bagFoot" style="display:none">
+    <div class="subtotal-row"><span>Subtotal</span><span id="bagSubtotal">$0</span></div>
+    <button class="btn btn-gold" id="checkoutBtn">Join the Drop 001 Waitlist</button>
+    <p class="drawer-note">Checkout opens when Drop 001 launches. Joining the list saves your spot.</p>
+  </div>
+</aside>
+<div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Search">
+  <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+  <div class="search-overlay-inner">
+    <span class="eyebrow">Search Queen City</span>
+    <input id="searchInput" type="search" placeholder="SHAFTS, APPAREL, GEAR..." aria-label="Search products" autocomplete="off">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Product image viewer">
+  <button class="lightbox-btn close" id="lbClose" aria-label="Close viewer">&times;</button>
+  <button class="lightbox-btn prev" id="lbPrev" aria-label="Previous image">&#8249;</button>
+  <button class="lightbox-btn next" id="lbNext" aria-label="Next image">&#8250;</button>
+  <img id="lbImg" src="" alt="">
+  <div class="lightbox-cap" id="lbCap"></div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+/* Queen City Lacrosse — single-file store. Product data, router, bag, filters, quick view. */
+var IMG = function(f){ return "images/" + f; };
+/* Email signup: no backend is connected yet. Set EMAIL_ENDPOINT to a
+   Formspree (or similar) form endpoint to collect emails; until then
+   signups are stored on this device ONLY and are NOT sent anywhere. */
+var EMAIL_ENDPOINT = "";
+var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+var MSG_NEWS_LOCAL = "<strong>You're on the launch list — on this device.</strong><br>Email signup isn't connected yet, so this address is stored on this device only and hasn't been sent anywhere.";
+var MSG_WAIT_LOCAL = "<strong>You're on the waitlist — on this device.</strong><br>Email signup isn't connected yet, so this address is stored on this device only and hasn't been sent anywhere.";
+var MSG_JOIN_LOCAL = "<strong>Application saved — on this device only.</strong><br>The program isn't active yet; applications will be considered when it launches, and your application hasn't been sent anywhere yet.";
+var MSG_CONTACT_LOCAL = "<strong>Message saved — on this device only.</strong><br>The team inbox opens with Drop 001, and we'll reply to this email address then. Your message hasn't been sent anywhere yet.";
+var MSG_NEWS_OK = "<strong>You're on the launch list — thanks!</strong><br>We'll email you when Drop 001 opens.";
+var MSG_WAIT_OK = "<strong>You're on the waitlist — thanks!</strong><br>We'll email you the moment Drop 001 opens.";
+var MSG_JOIN_OK = "<strong>Application received — thanks!</strong><br>We'll be in touch when the program launches.";
+var MSG_CONTACT_OK = "<strong>Message received — thanks!</strong><br>We'll reply to this email address.";
+var PRODUCTS = [
+  /* Core Collection — shafts */
+  {id:"blackout", name:"Queen City Blackout Shaft", price:130, cat:"shafts", coll:"core", tag:"Core", color:"Black", type:"shaft",
+   desc:"Designed for players who prefer a clean, understated look. The Blackout combines a stealth-inspired finish with the Queen City identity.",
+   img:"shaft-blackout.webp", back:"shaft-blackout-back.webp"},
+  {id:"frost", name:"Queen City Frost Shaft", price:130, cat:"shafts", coll:"core", tag:"Core", color:"White", type:"shaft",
+   desc:"White shaft, minimal navy branding, small gold accents. Clean, professional appearance.",
+   img:"shaft-frost.webp", back:"shaft-frost-back.webp"},
+  {id:"royal-navy", name:"Queen City Royal Navy Shaft", price:140, cat:"shafts", coll:"core", tag:"Core", color:"Navy", type:"shaft",
+   desc:"Deep navy shaft with metallic gold Queen City lettering and a subtle carbon texture. The signature company colors.",
+   img:"shaft-royal-navy.webp", back:"shaft-royal-navy-back.webp"},
+  {id:"stealth", name:"Queen City Stealth Shaft", price:140, cat:"shafts", coll:"core", tag:"Core", color:"Black", type:"shaft",
+   desc:"Dark charcoal shaft with gloss black graphics and minimal gold details. Aggressive but understated.",
+   img:"shaft-stealth.webp", back:"shaft-stealth-back.webp"},
+  {id:"chrome", name:"Queen City Chrome Shaft", price:150, cat:"shafts", coll:"core", tag:"Core", color:"Other", type:"shaft",
+   desc:"Metallic silver-inspired finish with deep navy graphics and small gold detailing.",
+   img:"shaft-chrome.webp", back:"shaft-chrome-back.webp"},
+  {id:"gold-standard", name:"Queen City Gold Standard Shaft", price:160, cat:"shafts", coll:"core", tag:"Core", color:"Gold", type:"shaft",
+   desc:"Deep navy base with prominent metallic gold graphic elements. Premium limited-style appearance.",
+   img:"shaft-gold-standard.webp", back:"shaft-gold-standard-back.webp"},
+  /* Graphic Series — shafts */
+  {id:"classic", name:"Queen City Classic Shaft", price:150, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Navy", type:"shaft",
+   desc:"Deep navy, large gold geometric QC graphic, thin gold lines, Buffalo, NY inscription. Sophisticated and traditional.",
+   img:"shaft-classic.webp", back:null},
+  {id:"after-hours", name:"After Hours Shaft", price:160, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Black", type:"shaft",
+   desc:"Black base with dark purple and metallic gold city-light graphics. Dramatic, nighttime aesthetic.",
+   img:"shaft-after-hours.webp", back:null},
+  {id:"ice-cold", name:"Ice Cold Shaft", price:150, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"White", type:"shaft",
+   desc:"White and icy blue with frozen texture-inspired graphics, navy details, silver accents.",
+   img:"shaft-ice-cold.webp", back:null},
+  {id:"wildfire", name:"Wildfire Shaft", price:160, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft",
+   desc:"Deep black with red, orange, and gold flame-inspired graphics running along the shaft.",
+   img:"shaft-wildfire.webp", back:null},
+  {id:"toxic", name:"Toxic Shaft", price:160, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft",
+   desc:"Black base with electric green liquid-inspired graphics. Strong contrast, modern and edgy.",
+   img:"shaft-toxic.webp", back:null},
+  {id:"midnight", name:"Midnight Shaft", price:150, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Navy", type:"shaft",
+   desc:"Deep navy and black with night-sky graphics and gold constellation detailing.",
+   img:"shaft-midnight.webp", back:null},
+  {id:"storm", name:"Storm Warning Shaft", price:160, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft",
+   desc:"Charcoal base with electric blue lightning graphics and dynamic diagonal lines.",
+   img:"shaft-storm.webp", back:null},
+  {id:"camo", name:"Camo Shaft", price:150, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft",
+   desc:"Sophisticated camouflage in navy, gray, black, and muted gold.",
+   img:"shaft-camo.webp", back:null},
+  {id:"racing", name:"Racing Series Shaft", price:170, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft",
+   desc:"Motorsport-inspired graphics: racing stripes and number-style graphics. Fast, competitive appearance.",
+   img:"shaft-racing.webp", back:null},
+  {id:"black-ice", name:"Black Ice Shaft", price:170, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Black", type:"shaft",
+   desc:"Gloss and matte black with icy silver and navy graphics and subtle reflective accents.",
+   img:"shaft-black-ice.webp", back:null},
+  {id:"buffalo", name:"Buffalo Edition Shaft", price:170, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Navy", type:"shaft",
+   desc:"Deep navy and metallic gold with Lake Erie and city-inspired graphics and a Buffalo, NY detail.",
+   img:"shaft-buffalo.webp", back:null},
+  {id:"galaxy", name:"Galaxy Shaft", price:160, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft",
+   desc:"Deep space graphics: dark navy and black with purple, blue, and subtle gold cosmic details.",
+   img:"shaft-galaxy.webp", back:null},
+  {id:"redline", name:"Redline Shaft", price:160, cat:"shafts", coll:"graphic", tag:"Graphic Series", color:"Other", type:"shaft", soon:true, isNew:true, nophoto:true,
+   desc:"Deep black base with red racing-inspired stripes, white and gold details. Sharp athletic graphics, aggressive appearance.",
+   img:null, back:null},
+  /* Limited Editions — drops */
+  {id:"drop-001", name:"Drop 001 — Queen City Origin Shaft", price:180, cat:"shafts", coll:"limited", tag:"Limited Edition", color:"Navy", type:"shaft", isNew:true,
+   desc:"The first Queen City shaft. Deep navy, gold geometric QC graphic, Buffalo, NY inscription. Drop 001.",
+   img:"shaft-classic.webp", back:null},
+  {id:"drop-002", name:"Drop 002 — After Hours Shaft", price:180, cat:"shafts", coll:"limited", tag:"Limited Edition", color:"Black", type:"shaft", soon:true,
+   desc:"Drop 002. Black base with dark purple and metallic gold city-light graphics. Coming soon.",
+   img:"shaft-after-hours.webp", back:null},
+  {id:"drop-003", name:"Drop 003 — Ice Cold Shaft", price:180, cat:"shafts", coll:"limited", tag:"Limited Edition", color:"White", type:"shaft", soon:true,
+   desc:"Drop 003. White and icy blue with frozen texture-inspired graphics. Coming soon.",
+   img:"shaft-ice-cold.webp", back:null},
+  {id:"drop-004", name:"Drop 004 — Wildfire Shaft", price:180, cat:"shafts", coll:"limited", tag:"Limited Edition", color:"Other", type:"shaft", soon:true,
+   desc:"Drop 004. Deep black with red, orange, and gold flame-inspired graphics. Coming soon.",
+   img:"shaft-wildfire.webp", back:null},
+  {id:"drop-005", name:"Drop 005 — Buffalo Edition Shaft", price:180, cat:"shafts", coll:"limited", tag:"Limited Edition", color:"Navy", type:"shaft", soon:true,
+   desc:"Drop 005. Deep navy and metallic gold with Lake Erie and city-inspired graphics. Coming soon.",
+   img:"shaft-buffalo.webp", back:null},
+  /* Apparel */
+  {id:"performance-tee", name:"Queen City Performance Tee", price:32, cat:"apparel", coll:null, tag:"Apparel", color:"Navy", type:"apparel",
+   desc:"Deep navy. Small gold QC logo on chest, larger Queen City Lacrosse graphic on the back. Athletic fit.",
+   img:"apparel-performance-front.webp", back:"apparel-performance-back.webp"},
+  {id:"classic-tee", name:"QC Classic Tee", price:28, cat:"apparel", coll:null, tag:"Apparel", color:"White", type:"apparel",
+   desc:"White. Deep navy Queen City logo, small Buffalo, NY detail. Regular athletic fit.",
+   img:"apparel-classic-front.webp", back:"apparel-classic-back.webp"},
+  {id:"btc-tee", name:"Built to Compete Tee", price:32, cat:"apparel", coll:null, tag:"Apparel", color:"Black", type:"apparel",
+   desc:"Charcoal. Bold athletic lettering with metallic gold details.",
+   img:"apparel-btc-front.webp", back:"apparel-btc-back.webp"},
+  {id:"training-tee", name:"Queen City Training Tee", price:30, cat:"apparel", coll:null, tag:"Apparel", color:"Navy", type:"apparel",
+   desc:"Deep navy. Minimal chest branding, subtle athletic graphics. Lightweight training-inspired appearance.",
+   img:"apparel-training-front.webp", back:"apparel-training-back.webp"},
+  {id:"oversized-tee", name:"QC Oversized Tee", price:34, cat:"apparel", coll:null, tag:"Apparel", color:"White", type:"apparel",
+   desc:"Off-white. Larger back graphic, small QC emblem on the front. Modern relaxed fit.",
+   img:"apparel-oversized-front.webp", back:"apparel-oversized-back.webp"},
+  {id:"longsleeve", name:"Queen City Long Sleeve", price:42, cat:"apparel", coll:null, tag:"Apparel", color:"White", type:"apparel",
+   desc:"White. Athletic graphics running down the sleeves, small gold emblem.",
+   img:"apparel-longsleeve-front.webp", back:"apparel-longsleeve-back.webp"},
+  {id:"logo-tee", name:"QC Logo Tee", price:28, cat:"apparel", coll:null, tag:"Apparel", color:"Navy", type:"apparel",
+   desc:"Simple, understated logo shirt. Easy everyday apparel.",
+   img:"apparel-logo-front.webp", back:"apparel-logo-back.webp"},
+  /* Accessories */
+  {id:"grip-tape", name:"QC Grip Tape", price:12, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc",
+   desc:"Deep navy grip tape with gold QC detailing.", img:"acc-grip-tape.webp", back:null},
+  {id:"mesh-kit", name:"QC Mesh Kit", price:24, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc",
+   desc:"Mesh with navy shooting strings.", img:"acc-mesh-kit.webp", back:null},
+  {id:"strings-kit", name:"QC Shooting Strings Kit", price:18, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc",
+   desc:"Shooting strings and sidewall string kit in navy and gold.", img:"acc-strings-kit.webp", back:null},
+  {id:"sticker-pack", name:"QC Sticker Pack", price:8, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc",
+   desc:"Navy and gold Queen City Lacrosse stickers.", img:"acc-sticker-pack.webp", back:null},
+  {id:"socks", name:"QC Athletic Socks", price:14, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc",
+   desc:"Navy athletic crew socks with gold QC emblem.", img:"acc-socks.webp", back:null},
+  {id:"rope-hat", name:"QC Rope Hat", price:32, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc",
+   desc:"Navy rope hat with gold QC emblem.", img:"acc-rope-hat.webp", back:null},
+  {id:"equipment-bag", name:"QC Equipment Bag", price:65, cat:"accessories", coll:null, tag:"Accessories", color:"Navy", type:"acc", soon:true,
+   desc:"Large deep navy equipment duffel with gold details. Coming soon.", img:"acc-equipment-bag.webp", back:null}
+];
+var byId = {};
+PRODUCTS.forEach(function(p){ byId[p.id] = p; });
+var CAT_LABEL = {shafts:"Lacrosse Shafts", apparel:"Apparel", accessories:"Accessories"};
+var COLL_LABEL = {core:"Core Collection", graphic:"Graphic Series", limited:"Limited Editions"};
+var SHAFT_LENGTHS = ["30\"", "60\""];
+var APPAREL_SIZES = ["S","M","L","XL"];
+var FINISH = {blackout:"Matte", frost:"Matte", "royal-navy":"Gloss", stealth:"Matte", chrome:"Metallic", "gold-standard":"Gloss",
+  classic:"Gloss", "after-hours":"Matte", "ice-cold":"Gloss", wildfire:"Gloss", toxic:"Gloss", midnight:"Matte", storm:"Matte",
+  camo:"Matte", racing:"Gloss", "black-ice":"Gloss", buffalo:"Gloss", galaxy:"Gloss", redline:"Matte",
+  "drop-001":"Gloss", "drop-002":"Matte", "drop-003":"Gloss", "drop-004":"Gloss", "drop-005":"Gloss"};
+var APPAREL_GROUPS = {performance:["performance-tee","training-tee"], everyday:["classic-tee","btc-tee","logo-tee","oversized-tee"], longsleeve:["longsleeve"]};
+var ACC_GROUPS = {mesh:["mesh-kit"], strings:["strings-kit"], grip:["grip-tape"], other:["sticker-pack","socks","rope-hat","equipment-bag"]};
+var apparelGroup = "all";
+var accGroup = "all";
+function money(n){ return "$" + n; }
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function imgTag(src, alt, cls, lazy){
+  var l = lazy === false ? "" : ' loading="lazy"';
+  return '<img src="' + IMG(src) + '" alt="' + esc(alt) + '"' + (cls ? ' class="' + cls + '"' : "") + l + ' onerror="qclImgErr(this)">';
+}
+function qclImgErr(el){
+  var fb = el.getAttribute("data-fallback");
+  if(fb && el.src.indexOf(fb) === -1){ el.src = fb; return; }
+  el.style.display = "none";
+}
+/* ---------- Bag (localStorage) ---------- */
+var BAG_KEY = "qcl-bag-v1";
+var bag = [];
+try { bag = JSON.parse(localStorage.getItem(BAG_KEY) || "[]"); } catch(e){ bag = []; }
+function saveBag(){ try { localStorage.setItem(BAG_KEY, JSON.stringify(bag)); } catch(e){} updateBagUI(); }
+function bagCount(){ var n = 0; bag.forEach(function(i){ n += i.qty; }); return n; }
+function bagSubtotal(){ var t = 0; bag.forEach(function(i){ t += byId[i.id].price * i.qty; }); return t; }
+function addToBag(id, variant, qty){
+  var p = byId[id]; if(!p || p.soon) return false;
+  var key = id + "|" + variant;
+  var found = null;
+  bag.forEach(function(i){ if(i.key === key) found = i; });
+  if(found){ found.qty += qty; } else { bag.push({key:key, id:id, variant:variant, qty:qty}); }
+  saveBag(); toast(p.name + " added to your bag.");
+  return true;
+}
+function setQty(key, qty){
+  for(var i = bag.length - 1; i >= 0; i--){
+    if(bag[i].key === key){ if(qty > 0) bag[i].qty = qty; else bag.splice(i, 1); }
+  }
+  saveBag();
+}
+function removeFromBag(key){
+  for(var i = bag.length - 1; i >= 0; i--){ if(bag[i].key === key) bag.splice(i, 1); }
+  saveBag();
+}
+function updateBagUI(){
+  var c = document.getElementById("bagCount");
+  var n = bagCount();
+  if(c){ c.style.display = n ? "flex" : "none"; c.textContent = n; }
+  var mb = document.getElementById("mBagCount");
+  if(mb) mb.textContent = n;
+  var hc = document.getElementById("bagHeadCount");
+  if(hc) hc.textContent = n ? "(" + n + ")" : "";
+  renderBag();
+}
+function renderBag(){
+  var body = document.getElementById("bagBody");
+  var foot = document.getElementById("bagFoot");
+  if(!body) return;
+  if(!bag.length){
+    body.innerHTML = '<div class="bag-empty"><h3 style="font-size:20px;margin-bottom:8px">Your bag is empty.</h3><p>Explore the first Queen City collection — shafts, apparel, and accessories.</p><p style="margin-top:18px"><button class="btn btn-sm" onclick="closeBag();location.hash=\'#/shop\'">Shop the collection</button></p></div>';
+    foot.style.display = "none";
+    return;
+  }
+  var html = "";
+  bag.forEach(function(i){
+    var p = byId[i.id];
+    html += '<div class="bag-item">' + imgTag(p.img, p.name) +
+      '<div class="bag-item-info"><h4>' + esc(p.name) + '</h4><p>' + esc(i.variant) + ' &middot; ' + esc(p.color) + '</p>' +
+      '<div class="bag-item-row"><span class="bag-qty">' +
+      '<button onclick="setQty(\'' + esc(i.key) + '\',' + (i.qty - 1) + ')" aria-label="Decrease quantity">&minus;</button>' +
+      '<span>' + i.qty + '</span>' +
+      '<button onclick="setQty(\'' + esc(i.key) + '\',' + (i.qty + 1) + ')" aria-label="Increase quantity">+</button></span>' +
+      '<strong>' + money(p.price * i.qty) + '</strong></div>' +
+      '<button class="bag-remove" onclick="removeFromBag(\'' + esc(i.key) + '\')">Remove</button></div></div>';
+  });
+  body.innerHTML = html;
+  foot.style.display = "block";
+  document.getElementById("bagSubtotal").textContent = money(bagSubtotal());
+}
+function openBag(){ document.getElementById("bagDrawer").classList.add("open"); document.getElementById("overlay").classList.add("open"); }
+function closeBag(){ document.getElementById("bagDrawer").classList.remove("open"); if(!document.querySelector(".modal.open")) document.getElementById("overlay").classList.remove("open"); }
+function openModal(id){ document.getElementById(id).classList.add("open"); document.getElementById("overlay").classList.add("open"); }
+function closeModals(){ document.querySelectorAll(".modal.open").forEach(function(m){ m.classList.remove("open"); }); if(!document.getElementById("bagDrawer").classList.contains("open")) document.getElementById("overlay").classList.remove("open"); }
+var toastTimer = null;
+function toast(msg){
+  var t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ t.classList.remove("show"); }, 2600);
+}
+
+/* ---------- Product card ---------- */
+function goProduct(id){
+  var h = "#/product/" + id;
+  if(location.hash !== h) location.hash = h; else render();
+}
+function cardHTML(p){
+  var badge = "";
+  if(p.soon) badge = '<span class="badge badge-soon">Coming Soon</span>';
+  else {
+    if(p.isNew) badge += '<span class="badge badge-new">New</span>';
+    if(p.coll === "limited") badge += '<span class="badge">Limited Edition</span>';
+    else if(p.coll === "graphic") badge += '<span class="badge badge-graphic">Graphic Series</span>';
+    else if(p.coll === "core") badge += '<span class="badge badge-core">Core</span>';
+  }
+  if(p.type === "shaft" && frames360(p).length >= 2) badge += '<span class="badge badge-360">360&deg;</span>';
+  var imgHtml;
+  if(p.nophoto){
+    imgHtml = '<div class="nophoto-card"><span class="qc-mono">QC</span><p>Product photography<br>coming soon</p></div>';
+  } else {
+    var alt = p.back ? IMG(p.back) : IMG(p.img);
+    imgHtml = imgTag(p.img, p.name + " — " + p.color) +
+    '<img src="' + alt + '" alt="" class="alt" loading="lazy" onerror="qclImgErr(this)" data-fallback="' + IMG(p.img) + '">';
+  }
+  return '<article class="card" data-pid="' + p.id + '" onclick="goProduct(\'' + p.id + '\')">' +
+    '<div class="card-img"><span class="card-badges">' + badge + '</span>' + imgHtml +
+    '<button class="card-qv" onclick="event.stopPropagation();openQuickView(\'' + p.id + '\')">Quick View</button></div>' +
+    '<div class="card-body"><h3>' + esc(p.name) + '</h3>' +
+    '<div class="card-meta">' + esc(p.color) + (p.coll ? ' &middot; ' + esc(COLL_LABEL[p.coll]) : ' &middot; ' + esc(CAT_LABEL[p.cat])) + '</div>' +
+    '<div class="card-row"><span class="card-price">' + money(p.price) + '</span>' +
+    '<span class="card-avail' + (p.soon ? ' soon' : '') + '">' + (p.soon ? 'Coming Soon' : p.id === 'drop-001' ? 'First Release' : 'Available at Launch') + '</span></div></div></article>';
+}
+/* ---------- Home ---------- */
+function renderHome(){
+  var core = PRODUCTS.filter(function(p){ return p.coll === "core"; });
+  var graphic = PRODUCTS.filter(function(p){ return p.coll === "graphic"; });
+  var apparel = PRODUCTS.filter(function(p){ return p.cat === "apparel"; }).slice(0, 4);
+  var drops = PRODUCTS.filter(function(p){ return p.coll === "limited"; });
+  var shaftRow = PRODUCTS.filter(function(p){ return p.type === "shaft" && !p.soon; }).slice(0, 5);
+  var html = "";
+  /* Hero */
+  html += '<section class="hero"><div class="hero-bg">' + imgTag("hero-team.webp", "Queen City lacrosse players celebrating on the field", "", false) + '</div>' +
+    '<div class="hero-inner"><span class="eyebrow">Queen City Lacrosse &middot; Buffalo, New York</span>' +
+    '<h1>Built to<br><span>Compete.</span></h1>' +
+    '<p>Performance-driven lacrosse equipment and apparel for players who demand more from their game.</p>' +
+    '<div class="hero-cta"><a class="btn btn-gold" href="#/shafts">Shop Shafts</a><a class="btn btn-ghost-light" href="#/story">Explore Queen City</a></div>' +
+    '<div class="hero-note">From the Queen City to the field.</div></div></section>';
+  /* Brand intro */
+  html += '<section class="brand-intro"><div class="brand-intro-inner reveal"><span class="qc-mono">QC</span>' +
+    '<p>From Buffalo, New York. Inspired by the game. Built around the <span>players who compete</span> in it.</p></div></section>';
+  /* Featured categories */
+  html += '<section class="sec"><div class="wrap"><div class="sec-head reveal"><span class="eyebrow">The First Collection</span>' +
+    '<h2>Engineered for<br>the Game.</h2><p>Explore the first Queen City Lacrosse collection.</p></div>' +
+    '<div class="cat-grid">' +
+    '<div class="cat-tile tall reveal" onclick="goShop({cat:\'shafts\'})">' + imgTag("shaft-royal-navy.webp", "Queen City Royal Navy carbon fiber lacrosse shaft") +
+    '<div class="cat-body"><span class="eyebrow">The Flagship</span><h3>Lacrosse Shafts</h3><p>Carbon fiber shafts in Core, Graphic Series, and Limited Edition designs. The centerpiece of Queen City.</p><span class="cat-link">Shop Now &rarr;</span></div></div>' +
+    '<div class="cat-tile reveal" onclick="goShop({cat:\'apparel\'})">' + imgTag("apparel-performance-front.webp", "Queen City Performance Tee in deep navy") +
+    '<div class="cat-body"><h3>Athletic Apparel</h3><p>Premium tees and training wear for practice, the gym, and every day.</p><span class="cat-link">Shop Now &rarr;</span></div></div>' +
+    '<div class="cat-tile reveal" onclick="goShop({cat:\'accessories\'})">' + imgTag("acc-equipment-bag.webp", "Queen City equipment bag in deep navy") +
+    '<div class="cat-body"><h3>Accessories</h3><p>Grip, mesh, strings, and gear built to complete the bag.</p><span class="cat-link">Shop Now &rarr;</span></div></div>' +
+    '</div></div></section>';
+  /* Shaft collection — the centerpiece */
+  var featured = [byId["blackout"], byId["classic"], byId["galaxy"], byId["royal-navy"]];
+  html += '<section class="sec" style="background:#fff"><div class="wrap"><div class="sec-head reveal"><span class="eyebrow">The Shaft Collection</span>' +
+    '<h2>The Queen City<br>Shaft Collection.</h2><p>Twenty-four shafts. Traditional performance designs alongside bold, collectible graphics — every one built around the same standard: compete.</p></div>' +
+    '<div class="grid">' + featured.map(function(p){
+      return '<article class="card" onclick="goProduct(\'' + p.id + '\')"><div class="card-img"><span class="card-badges">' + (frames360(p).length >= 2 ? '<span class="badge badge-360">360&deg;</span>' : '') + '</span>' + imgTag(p.img, p.name + " — " + p.color) + '<button class="card-qv" onclick="event.stopPropagation();openQuickView(\'' + p.id + '\')">Quick View</button></div>' +
+      '<div class="card-body"><h3>' + esc(p.name) + '</h3><div class="card-meta">' + esc(p.color) + ' &middot; ' + esc(COLL_LABEL[p.coll]) + '</div>' +
+      '<div class="card-row"><span class="card-price">' + money(p.price) + '</span><span class="card-avail">Available at Launch</span></div></div></article>';
+    }).join("") + '</div>' +
+    '<div style="text-align:center;margin-top:32px"><a class="btn" href="#/shafts">Explore All Shafts</a></div></div></section>';
+  /* Shaft strip */
+  html += '<section class="sec" style="padding-top:0"><div class="wrap"><div class="shaft-strip">' + shaftRow.map(function(p){
+      return '<div class="shaft-cell reveal" onclick="goProduct(\'' + p.id + '\')">' + imgTag(p.img, p.name) + '<h4>' + esc(p.name.replace("Queen City ", "")) + '</h4><span class="price">' + money(p.price) + '</span></div>';
+    }).join("") + '</div>' +
+    '<div style="text-align:center;margin-top:32px"><a class="btn btn-ghost" href="#/shafts">Explore Shafts</a></div></div></section>';
+  /* Graphic series — dark, graphics stand out */
+  html += '<section class="sec" style="background:var(--char)"><div class="wrap"><div class="sec-head reveal"><span class="eyebrow">Graphic Series</span>' +
+    '<h2 style="color:#fff">Why Play<br>It Safe?</h2><p style="color:rgba(255,255,255,.75)">Different styles. Different personalities. One standard: compete.</p></div>' +
+    '<div class="grid">' + graphic.slice(0, 8).map(cardHTML).join("") + '</div>' +
+    '<div style="text-align:center;margin-top:32px"><a class="btn btn-gold" href="#/shop" onclick="goShop({coll:\'graphic\'});return false;">Shop the Graphic Series</a></div></div></section>';
+  /* Core Collection */
+  html += '<section class="sec" style="background:#fff"><div class="wrap"><div class="sec-head reveal"><span class="eyebrow">Core Collection</span>' +
+    '<h2>Built Different.<br>Kept Simple.</h2><p>Traditional performance colorways for players who prefer understated equipment. Clean, professional, and built to compete.</p></div>' +
+    '<div class="grid">' + core.map(cardHTML).join("") + '</div>' +
+    '<div style="text-align:center;margin-top:32px"><a class="btn btn-ghost" href="#/shop" onclick="goShop({coll:\'core\'});return false;">Shop the Core Collection</a></div></div></section>';
+  /* Latest drop */
+  html += '<section class="sec" style="background:#fff"><div class="wrap"><div class="sec-head reveal"><span class="eyebrow">Limited Editions</span>' +
+    '<h2>Not Every Drop<br>Is Forever.</h2><p>Drop 001 — Queen City Origin. The first Queen City shaft, the first release.</p></div>' +
+    '<div class="split"><div class="img-card reveal">' + imgTag("shaft-classic.webp", "Drop 001 Queen City Origin shaft in deep navy and gold") + '</div>' +
+    '<div class="reveal" style="display:flex;flex-direction:column;justify-content:center"><span class="badge" style="align-self:flex-start">Limited Edition</span>' +
+    '<h3 style="font-size:30px;margin:14px 0 6px">Drop 001 — Queen City Origin Shaft</h3>' +
+    '<p style="font-size:22px;font-weight:800;color:var(--navy)">$180</p>' +
+    '<p style="color:#4a5568;margin:12px 0 20px">First release in 30&quot; and 60&quot;. The first shaft to carry the Queen City name — and the one that sets the standard for every drop after it.</p>' +
+    '<div><button class="btn btn-gold" onclick="openQuickView(\'drop-001\')">Shop Drop 001</button> <a class="btn btn-ghost" href="#/shop" onclick="goShop({coll:\'limited\'});return false;">All Limited Editions</a></div>' +
+    '<p style="font-size:13px;color:#6b7280;margin-top:16px">Drops 002–005 are coming soon. No quantities are claimed — when a drop is ready, it is here.</p></div></div></div></section>';
+  /* Apparel */
+  var shirts3 = [byId["performance-tee"], byId["classic-tee"], byId["btc-tee"]];
+  html += '<section class="sec" style="background:#fff"><div class="wrap"><div class="split">' +
+    '<div class="band reveal"><div class="band-img">' + imgTag("lifestyle-field.webp", "Lacrosse players training on the field in Queen City apparel") + '</div>' +
+    '<div class="band-inner"><span class="eyebrow">Everyday Queen City</span><h2>Off the Field.<br>Still in <span>the Game.</span></h2>' +
+    '<p>Athletic apparel made for practice, the gym, class, and everywhere in between. Clean, minimal, and built to be worn.</p>' +
+    '<a class="btn btn-gold" href="#/apparel">Shop Apparel</a></div></div>' +
+    '<div class="img-card reveal">' + imgTag("apparel-btc-front.webp", "Built to Compete Tee in charcoal with gold lettering") + '</div>' +
+    '</div>' +
+    '<div class="grid cols-3" style="margin-top:20px">' + shirts3.map(cardHTML).join("") + '</div>' +
+    '</div></section>';
+  /* Performance */
+  html += '<section class="sec"><div class="wrap">' +
+    '<div class="quote-block reveal"><span class="eyebrow">Performance</span>' +
+    '<h2 style="margin-top:12px">Performance isn&rsquo;t an accident.</h2>' +
+    '<p>&ldquo;We believe equipment should earn its place in your bag. Every product should be designed with purpose, evaluated with care, and built around what players actually want.&rdquo;</p>' +
+    '<p>Material selection. Weight. Balance. Flex consistency. Grip. Durability. Quality control. Player feedback. That is the work behind every Queen City product — and it is never finished.</p></div>' +
+    '<div class="detail-row" style="margin-top:20px">' +
+    '<div class="detail-cell reveal">' + imgTag("detail-carbon.webp", "Close-up of carbon fiber shaft texture") + '<p>Carbon fiber texture, up close.</p></div>' +
+    '<div class="detail-cell reveal">' + imgTag("detail-grip.webp", "Close-up of shaft grip and finish") + '<p>Grip and finish, built to hold.</p></div>' +
+    '<div class="detail-cell reveal">' + imgTag("detail-logo.webp", "Close-up of the Queen City logo on a shaft") + '<p>The Queen City mark, on every shaft.</p></div></div>' +
+    '<div style="background:#fff;border:1px solid var(--gray);border-radius:6px;padding:32px;margin-top:20px" class="reveal">' +
+    '<h3 style="font-size:24px">Built with Player Feedback.</h3>' +
+    '<p style="color:#4a5568;margin-top:8px;max-width:720px">Queen City works with players to evaluate how equipment feels, performs, and holds up. If a design does not make the game better for the player holding it, it does not make the collection. That is the deal.</p></div>' +
+    '</div></section>';
+  /* Buffalo */
+  html += '<section class="sec"><div class="wrap"><div class="band reveal"><div class="band-img">' + imgTag("lifestyle-buffalo.webp", "Buffalo, New York industrial waterfront at dusk") + '</div>' +
+    '<div class="band-inner"><span class="eyebrow">From Buffalo</span><h2>Rooted in the<br><span>Queen City.</span></h2>' +
+    '<p>From Buffalo, New York. Inspired by the competitive spirit of the game.</p>' +
+    '<a class="btn btn-light" href="#/story">Our Story</a></div></div></div></section>';
+  /* Community */
+  html += '<section class="sec" style="background:#fff"><div class="wrap"><div class="band reveal"><div class="band-img">' + imgTag("lifestyle-field.webp", "Lacrosse players on the field after practice") + '</div>' +
+    '<div class="band-inner"><span class="eyebrow">Player Community</span><h2>Built Around<br>the <span>Game.</span></h2>' +
+    '<p>Player spotlights, team partnerships, and product testing — built around the players who make the game what it is.</p>' +
+    '<a class="btn btn-gold" href="#/community">Join the Team</a></div></div></div></section>';
+  /* Final CTA */
+  html += '<section class="sec"><div class="wrap"><div class="final-cta reveal"><h2>Your Game.<br><span>Your Standard.</span></h2>' +
+    '<p>Explore the Queen City collection.</p>' +
+    '<a class="btn btn-gold" href="#/shop">Shop the Collection</a></div></div></section>';
+  /* Newsletter */
+  html += '<section class="sec" style="padding-top:0"><div class="wrap"><div class="news-band reveal"><div><h2>Stay in<br>the <span>Game.</span></h2>' +
+    '<p>Get first access to new releases, product updates, and everything happening at Queen City.</p><p style="color:var(--sgold);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:13px;margin-top:10px">First to know. First to compete.</p></div>' +
+    '<form class="news-form" data-newsletter><input type="email" name="email" placeholder="Your email address" required aria-label="Email address"><button class="btn btn-gold" type="submit">Subscribe</button></form>' +
+    '<div class="confirm" data-news-confirm style="display:none;background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:#fff"><strong style="color:var(--gold)">You\'re on the launch list — on this device.</strong><br>Email signup isn\'t connected yet, so this address is stored on this device only and hasn\'t been sent anywhere.</div>' +
+    '<div class="form-error" data-news-error style="display:none"></div>' +
+    '</div></div></section>';
+  return html;
+}
+/* ---------- Shop ---------- */
+var shopState = {cat:"all", coll:"all", color:"all", price:"all", sort:"featured", q:""};
+function goShop(preset){
+  shopState.cat = "all"; shopState.coll = "all"; shopState.color = "all"; shopState.price = "all"; shopState.sort = "featured"; shopState.q = "";
+  if(preset){
+    if(preset.cat) shopState.cat = preset.cat;
+    if(preset.coll) shopState.coll = preset.coll;
+    if(preset.price) shopState.price = preset.price;
+    if(preset.newest) shopState.sort = "newest";
+  }
+  if(location.hash !== "#/shop") location.hash = "#/shop"; else render();
+}
+function applyFilters(){
+  var list = PRODUCTS.slice();
+  if(shopState.cat !== "all") list = list.filter(function(p){ return p.cat === shopState.cat; });
+  if(shopState.coll !== "all") list = list.filter(function(p){ return p.coll === shopState.coll; });
+  if(shopState.color !== "all") list = list.filter(function(p){ return p.color === shopState.color; });
+  if(shopState.price !== "all"){
+    list = list.filter(function(p){
+      if(shopState.price === "under30") return p.price < 30;
+      if(shopState.price === "30-60") return p.price >= 30 && p.price <= 60;
+      if(shopState.price === "60-100") return p.price > 60 && p.price <= 100;
+      if(shopState.price === "100plus") return p.price > 100;
+      return true;
+    });
+  }
+  if(shopState.q){
+    var q = shopState.q.toLowerCase();
+    list = list.filter(function(p){
+      return (p.name + " " + (p.coll || "") + " " + p.color + " " + p.desc + " " + CAT_LABEL[p.cat]).toLowerCase().indexOf(q) !== -1;
+    });
+  }
+  if(shopState.sort === "low") list.sort(function(a,b){ return a.price - b.price; });
+  else if(shopState.sort === "high") list.sort(function(a,b){ return b.price - a.price; });
+  else if(shopState.sort === "newest"){
+    var rank = function(p){ if(p.isNew) return 0; return p.coll === "limited" ? 1 : p.coll === "graphic" ? 2 : p.coll === "core" ? 3 : 4; };
+    list.sort(function(a,b){ return rank(a) - rank(b); });
+  }
+  return list;
+}
+function chipRow(label, values, current, key){
+  return '<div class="filter-group"><h4>' + label + '</h4>' + values.map(function(v){
+    return '<button class="chip' + (current === v[0] ? ' on' : '') + '" onclick="setFilter(\'' + key + '\',\'' + v[0] + '\')">' + v[1] + '</button>';
+  }).join("") + '</div>';
+}
+function setFilter(key, val){
+  if(key.indexOf("shaft:") === 0){
+    var k = key.slice(6);
+    if(k === "len") shaftState.len = val + '"';
+    else shaftState[k] = val;
+    renderShaftsGrid();
+    return;
+  }
+  shopState[key] = val; renderShopGrid();
+}
+function renderShop(){
+  var html = '<section class="sec"><div class="wrap">' +
+    '<div class="page-head" style="padding-top:0"><span class="eyebrow">Shop</span><h1 id="shopTitle">All Products.</h1>' +
+    '<p id="shopIntro">Thirty-eight pieces. Shafts, apparel, and accessories — every one designed in Buffalo and built to compete.</p></div>' +
+    '<div class="shop-layout"><aside class="filters" aria-label="Filters">' +
+    '<h3>Filter</h3>' +
+    chipRow("Category", [["all","All"],["shafts","Shafts"],["apparel","Apparel"],["accessories","Accessories"]], shopState.cat, "cat") +
+    chipRow("Collection", [["all","All"],["core","Core"],["graphic","Graphic Series"],["limited","Limited Editions"]], shopState.coll, "coll") +
+    chipRow("Color", [["all","All"],["Navy","Navy"],["Black","Black"],["White","White"],["Gold","Gold"],["Other","Other"]], shopState.color, "color") +
+    chipRow("Price", [["all","All"],["under30","Under $30"],["30-60","$30–$60"],["60-100","$60–$100"],["100plus","$100+"]], shopState.price, "price") +
+    '<div class="filter-group"><button class="btn btn-ghost btn-sm" onclick="goShop({})">Reset Filters</button></div>' +
+    '</aside><div><div class="shop-bar">' +
+    '<div class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>' +
+    '<input id="shopSearch" type="search" placeholder="Search shafts, apparel, accessories..." value="' + esc(shopState.q) + '" aria-label="Search products"></div>' +
+    '<div class="sort-box"><label for="shopSort">Sort</label><select id="shopSort">' +
+    '<option value="featured"' + (shopState.sort === "featured" ? " selected" : "") + '>Featured</option>' +
+    '<option value="newest"' + (shopState.sort === "newest" ? " selected" : "") + '>Newest</option>' +
+    '<option value="low"' + (shopState.sort === "low" ? " selected" : "") + '>Price: Low to High</option>' +
+    '<option value="high"' + (shopState.sort === "high" ? " selected" : "") + '>Price: High to Low</option></select></div>' +
+    '</div><div class="shop-count" id="shopCount"></div><div class="grid" id="shopGrid"></div></div></div>' +
+    '</div></section>';
+  return html;
+}
+function renderShopGrid(){
+  var grid = document.getElementById("shopGrid");
+  if(!grid) return;
+  var list = applyFilters();
+  document.getElementById("shopCount").textContent = list.length + (list.length === 1 ? " product" : " products");
+  var h = document.getElementById("shopTitle");
+  var intro = document.getElementById("shopIntro");
+  if(h && intro){
+    var label = shopState.coll !== "all" ? COLL_LABEL[shopState.coll] : shopState.cat !== "all" ? CAT_LABEL[shopState.cat] : null;
+    h.textContent = (label || "All Products") + ".";
+    var unfiltered = shopState.cat === "all" && shopState.coll === "all" && shopState.color === "all" && shopState.price === "all" && !shopState.q;
+    if(unfiltered) intro.textContent = "Thirty-eight pieces. Shafts, apparel, and accessories — every one designed in Buffalo and built to compete.";
+    else if(label) intro.textContent = list.length + (list.length === 1 ? " piece in " : " pieces in ") + label + ".";
+    else intro.textContent = list.length + (list.length === 1 ? " piece." : " pieces.");
+  }
+  if(!list.length){
+    grid.innerHTML = '<div class="empty"><h3>Nothing matches those filters.</h3><p>Try a different search or reset the filters to see the full collection.</p><p style="margin-top:18px"><button class="btn btn-sm" onclick="goShop({})">Reset Filters</button></p></div>';
+    return;
+  }
+  grid.innerHTML = list.map(cardHTML).join("");
+}
+
+function careTextFor(p){
+  if(p.type === "apparel") return "Machine wash cold, hang dry. Do not iron directly on printed graphics.";
+  if(p.type === "acc") return "Wipe clean with a damp cloth and store indoors, away from extreme heat.";
+  return "Keep your shaft clean and dry after play. Store indoors, away from extreme heat. Wipe down the finish with a soft cloth. Do not use your shaft to strike hard surfaces other than the ball.";
+}
+/* ---------- Quick view / product detail ---------- */
+var qvState = {id:null, variant:null, qty:1, img:0};
+function galleryItems(p){
+  if(p.nophoto) return [];
+  var items = [{src:p.img, label:"Front", zoom:false}];
+  if(p.back) items.push({src:p.back, label:"Back", zoom:false});
+  else if(p.type === "shaft") items.push({src:p.img, label:"Reverse", zoom:true});
+  if(p.type === "shaft"){
+    items.push({src:p.img, label:"Graphic close-up", zoom:true});
+    items.push({src:"detail-carbon.webp", label:"Carbon fiber texture", zoom:false});
+    items.push({src:"detail-logo.webp", label:"Queen City logo detail", zoom:false});
+    items.push({src:"lifestyle-field.webp", label:"On the field", zoom:false});
+  }
+  if(p.type === "apparel") items.push({src:"lifestyle-field.webp", label:"On the field", zoom:false});
+  return items;
+}
+/* ---------- 360 viewer ---------- */
+/* FRAMES360: angles (45..315) whose frame files exist on disk, keyed by design id.
+   Populated from disk at build time — only listed angles are wired into the viewer.
+   0 deg = existing front image, 180 deg = existing back image (or back-zoom of front). */
+var FRAMES360 = {"blackout":[45,90,135,225,270,315],"frost":[45,90,135,225,270,315],"royal-navy":[45,90,135,225,270,315],"stealth":[45,90,135,225,270,315],"chrome":[45,90,135,225,270,315],"gold-standard":[45,90,135,225,270,315],"classic":[45,90,135,225,270,315],"after-hours":[45,90,135,225,270,315],"ice-cold":[45,90,135,225,270,315],"wildfire":[45,90,135,225,270,315],"toxic":[45,90,135,225,270,315],"midnight":[45,90,135,225,270,315],"storm":[45,90,135,225,270,315],"camo":[45,90,135,225,270,315],"racing":[45,90,135,225,270,315],"black-ice":[45,90,135,225,270,315],"buffalo":[45,90,135,225,270,315],"galaxy":[45,90,135,225,270,315],"redline":[45,90,135,225,270,315]};
+var DROP360 = {"drop-001":"classic","drop-002":"after-hours","drop-003":"ice-cold","drop-004":"wildfire","drop-005":"buffalo"};
+var ANGLES360 = [45,90,135,225,270,315];
+function designId360(p){ return DROP360[p.id] || p.id; }
+function frames360(p){
+  if(!p || p.type !== "shaft") return [];
+  var d = designId360(p);
+  var avail = FRAMES360[d] || [];
+  var frames = [];
+  if(p.img) frames.push({angle:0, src:p.img, zoom:false});
+  ANGLES360.forEach(function(a){
+    if(avail.indexOf(a) !== -1) frames.push({angle:a, src:"shaft-" + d + "-360-" + a + ".webp", zoom:false});
+  });
+  if(p.back) frames.push({angle:180, src:p.back, zoom:false});
+  else if(p.img) frames.push({angle:180, src:p.img, zoom:true});
+  frames.sort(function(a,b){ return a.angle - b.angle; });
+  return frames;
+}
+var v360 = {id:null, idx:0, playing:false, timer:null, drag:null};
+function v360Id(){ return v360.id || (typeof pdState !== "undefined" && pdState.id ? pdState.id : null); }
+function v360HideHint(){ var h = document.getElementById("v360Hint"); if(h) h.classList.add("hide"); }
+function v360Stop(){
+  if(v360.timer){ clearInterval(v360.timer); v360.timer = null; }
+  v360.playing = false;
+  var b = document.getElementById("v360Play");
+  if(b){ b.classList.remove("on"); b.textContent = "\u25B6 Auto-rotate"; }
+}
+function v360Show(i){
+  var p = byId[v360Id()]; if(!p) return;
+  var frames = frames360(p); if(!frames.length) return;
+  v360.idx = ((i % frames.length) + frames.length) % frames.length;
+  var f = frames[v360.idx];
+  var img = document.getElementById("v360Img");
+  if(img){
+    img.classList.add("v360-fade");
+    img.src = IMG(f.src);
+    img.alt = p.name + " — " + f.angle + "°";
+    img.classList.toggle("zoomed", !!f.zoom);
+    img.setAttribute("data-fallback", IMG(frames[0].src));
+    setTimeout(function(){ var im = document.getElementById("v360Img"); if(im) im.classList.remove("v360-fade"); }, 40);
+  }
+  var ang = document.getElementById("v360Angle");
+  if(ang) ang.textContent = f.angle + "°";
+  document.querySelectorAll(".v360-dot").forEach(function(d, j){
+    d.classList.toggle("on", j === v360.idx);
+    d.setAttribute("aria-current", j === v360.idx ? "true" : "false");
+  });
+  [1,-1].forEach(function(d){
+    var n = frames[((v360.idx + d) % frames.length + frames.length) % frames.length];
+    if(n && !n.zoom){ var im = new Image(); im.src = IMG(n.src); }
+  });
+}
+function v360Step(d){ v360Stop(); v360HideHint(); v360Show(v360.idx + d); }
+function v360Go(i){ v360Stop(); v360HideHint(); v360Show(i); }
+function v360Play(){
+  var p = byId[v360Id()]; if(!p) return;
+  var frames = frames360(p); if(frames.length < 2) return;
+  if(v360.playing){ v360Stop(); return; }
+  v360.playing = true;
+  var b = document.getElementById("v360Play");
+  if(b){ b.classList.add("on"); b.textContent = "\u275A\u275A Pause"; }
+  v360.timer = setInterval(function(){ v360Show(v360.idx + 1); }, 1400);
+}
+function v360Down(e){
+  var p = byId[v360Id()]; if(!p) return;
+  var frames = frames360(p); if(frames.length < 2) return;
+  v360Stop();
+  var x = (e.clientX != null ? e.clientX : (e.touches && e.touches[0] ? e.touches[0].clientX : null));
+  if(x == null) return;
+  v360.drag = {x:x, idx:v360.idx};
+  var st = document.getElementById("v360Stage");
+  if(st && e.pointerId != null && st.setPointerCapture){ try { st.setPointerCapture(e.pointerId); } catch(err){} }
+}
+function v360Move(e){
+  if(!v360.drag) return;
+  var x = (e.clientX != null ? e.clientX : (e.touches && e.touches[0] ? e.touches[0].clientX : null));
+  if(x == null) return;
+  var p = byId[v360Id()]; if(!p) return;
+  var frames = frames360(p); if(frames.length < 2) return;
+  var dx = v360.drag.x - x;
+  var steps = Math.floor(dx / 45);
+  var target = ((v360.drag.idx + steps) % frames.length + frames.length) % frames.length;
+  if(target !== v360.idx){ v360HideHint(); v360Show(target); }
+}
+function v360Up(){ v360.drag = null; }
+function v360Init(id){
+  v360Stop();
+  var p = byId[id];
+  v360.id = id; v360.idx = 0; v360.drag = null;
+  if(!p || p.type !== "shaft") return;
+  var frames = frames360(p);
+  if(frames.length >= 2){
+    [1, frames.length - 1].forEach(function(i){
+      var f = frames[i];
+      if(f && !f.zoom){ var im = new Image(); im.src = IMG(f.src); }
+    });
+  }
+}
+function viewToggleHtml(){
+  return '<div class="view-toggle"><button class="vt-btn on" onclick="v360Mode(\'360\', this)">360&deg; View</button><button class="vt-btn" onclick="v360Mode(\'photos\', this)">Photos</button></div>';
+}
+function v360Mode(mode, btn){
+  v360Stop();
+  var v = document.getElementById("viewer360");
+  var ph = document.getElementById("pdPhotos");
+  if(v) v.style.display = mode === "360" ? "" : "none";
+  if(ph) ph.style.display = mode === "photos" ? "" : "none";
+  document.querySelectorAll(".vt-btn").forEach(function(b){ b.classList.toggle("on", b === btn); });
+}
+function viewer360Html(p, frames){
+  var first = frames[0];
+  var dots = frames.map(function(f, i){
+    return '<button class="v360-dot' + (i === 0 ? ' on' : '') + '" onclick="v360Go(' + i + ')" aria-label="View at ' + f.angle + ' degrees" title="' + f.angle + '&deg;"><span class="dot"></span></button>';
+  }).join("");
+  return '<div class="viewer360" id="viewer360">' +
+    '<div class="v360-stage" id="v360Stage" onpointerdown="v360Down(event)" onpointermove="v360Move(event)" onpointerup="v360Up(event)" onpointercancel="v360Up(event)" onpointerleave="v360Up(event)">' +
+    '<img id="v360Img" src="' + IMG(first.src) + '" alt="' + esc(p.name + " — " + first.angle + "°") + '"' + (first.zoom ? ' class="zoomed"' : '') + ' data-fallback="' + IMG(first.src) + '" onerror="qclImgErr(this)">' +
+    '<span class="v360-badge">360&deg;</span>' +
+    '<span class="v360-hint" id="v360Hint">Drag to spin</span>' +
+    '<button class="v360-arrow prev" onpointerdown="event.stopPropagation()" onclick="v360Step(-1)" aria-label="Previous angle">&lsaquo;</button>' +
+    '<button class="v360-arrow next" onpointerdown="event.stopPropagation()" onclick="v360Step(1)" aria-label="Next angle">&rsaquo;</button>' +
+    '</div>' +
+    '<div class="v360-dots">' + dots + '</div>' +
+    '<div class="v360-bar"><button class="v360-play" id="v360Play" onclick="v360Play()">\u25B6 Auto-rotate</button><span class="v360-angle" id="v360Angle">' + first.angle + '&deg;</span></div>' +
+    '</div>';
+}
+function photosGalleryHtml(p, items){
+  if(p.nophoto){
+    return '<div class="pd-photos" id="pdPhotos" style="display:none"><div class="nophoto"><span class="qc-mono lg">QC</span><p style="font-size:17px;font-weight:700">Product photography coming soon.</p><p>We are shooting this design now — the photos will be here before it launches.</p></div></div>';
+  }
+  return '<div class="pd-photos" id="pdPhotos" style="display:none"><div class="pd-main" id="pdMain" onclick="openLightbox()">' + imgTag(items[0].src, p.name + " — " + items[0].label, "", false) + '</div>' +
+    '<div class="pd-thumbs">' + items.map(function(it, i){ return '<button class="pd-thumb' + (i === 0 ? ' on' : '') + '" onclick="pdImg(' + i + ')" aria-label="' + esc(it.label) + '">' + imgTag(it.src, it.label) + '</button>'; }).join("") + '</div>' +
+    '<p style="font-size:13px;color:#6b7280;margin-top:10px">Click the image to enlarge.</p></div>';
+}
+function openQuickView(id){
+  var p = byId[id]; if(!p) return;
+  qvState = {id:id, variant: p.type === "shaft" ? shaftState.len : p.type === "apparel" ? APPAREL_SIZES[1] : "One Size", qty:1, img:0};
+  var items = galleryItems(p);
+  var thumbs = items.map(function(it, i){
+    return '<button class="qv-thumb' + (i === 0 ? ' on' : '') + '" onclick="qvImg(' + i + ')" aria-label="' + esc(it.label) + '">' + imgTag(it.src, it.label) + '</button>';
+  }).join("");
+  var variantBlock = "";
+  if(p.type === "shaft"){
+    variantBlock = '<div class="opt-label">Length</div><div class="opt-row">' + SHAFT_LENGTHS.map(function(l){
+      return '<button class="opt' + (l === shaftState.len ? ' on' : '') + '" onclick="qvVariant(this,\'' + esc(l) + '\')">' + esc(l) + '</button>';
+    }).join("") + '</div>';
+  } else if(p.type === "apparel"){
+    variantBlock = '<div class="opt-label">Size</div><div class="opt-row">' + APPAREL_SIZES.map(function(s, i){
+      return '<button class="opt' + (i === 1 ? ' on' : '') + '" onclick="qvVariant(this,\'' + esc(s) + '\')">' + esc(s) + '</button>';
+    }).join("") + '</div>';
+  }
+  var badge = p.soon ? '<span class="badge badge-soon">Coming Soon</span>' : (p.coll === "limited" ? '<span class="badge">Limited Edition</span>' : p.coll ? '<span class="badge badge-core">' + esc(COLL_LABEL[p.coll]) + '</span>' : '');
+  var related = PRODUCTS.filter(function(x){ return x.id !== p.id && (x.cat === p.cat || (p.coll && x.coll === p.coll)); }).slice(0, 3);
+  var modal = document.getElementById("qvModal");
+  var galleryHtml;
+  if(p.nophoto){
+    galleryHtml = '<div class="qv-gallery"><div class="nophoto"><span class="qc-mono lg">QC</span><p>Product photography coming soon.<br>We are shooting this design now — the photos will be here before it launches.</p></div></div>';
+  } else {
+    galleryHtml = '<div class="qv-gallery"><div class="qv-main" id="qvMain">' + imgTag(items[0].src, p.name + " — " + items[0].label, "", false) + '</div>' +
+    '<div class="qv-thumbs">' + thumbs + '</div></div>';
+  }
+  modal.innerHTML = '<button class="modal-close" data-close-modal aria-label="Close">&times;</button>' +
+    '<div class="qv-grid">' + galleryHtml +
+    '<div class="qv-info">' + badge + '<h2>' + esc(p.name) + '</h2>' +
+    '<div class="qv-price">' + money(p.price) + '</div>' +
+    '<p class="qv-desc">' + esc(p.desc) + '</p>' +
+    '<div class="opt-label">Colorway</div><p style="font-weight:600">' + esc(p.color) + (p.coll ? ' &middot; ' + esc(COLL_LABEL[p.coll]) : '') + '</p>' +
+    variantBlock +
+    '<div class="opt-label">Quantity</div><div class="qty-row"><button class="qty-btn" onclick="qvQty(-1)" aria-label="Decrease quantity">&minus;</button><span class="qty-num" id="qvQty">1</span><button class="qty-btn" onclick="qvQty(1)" aria-label="Increase quantity">+</button></div>' +
+    (p.soon
+      ? '<button class="btn qv-add" disabled>Coming Soon</button>' +
+        '<form data-pd-waitlist class="pd-wait"><div class="field"><label>Email address</label><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address"></div><button class="btn btn-gold" type="submit" style="width:100%">Notify me when it launches</button></form>' +
+        '<div class="confirm" data-pd-wait-confirm style="display:none"><strong>You\'re on the waitlist — on this device.</strong><br>Email signup isn\'t connected yet, so this address is stored on this device only and hasn\'t been sent anywhere.</div>' +
+        '<div class="form-error" data-pd-wait-error style="display:none"></div>' +
+        '<p class="qv-meta">This product has not launched yet.</p>'
+      : '<button class="btn btn-gold qv-add" onclick="qvAdd()">Add to Bag — ' + money(p.price) + '</button><p class="qv-meta">Availability: ' + (p.id === 'drop-001' ? 'First release — checkout opens when Drop 001 launches.' : 'Available at launch — checkout opens when Drop 001 launches.') + '<br>Ships from Buffalo, New York.</p>') +
+    (p.type === "shaft" && frames360(p).length >= 2 ? '<button class="btn btn-ghost" style="width:100%;margin-top:10px" onclick="closeModals();goProduct(\'' + p.id + '\')">View 360&deg;</button>' : '') +
+    '<p class="qv-meta">Material: ' + (p.type === "shaft" ? 'Carbon fiber.' : p.type === "apparel" ? 'Athletic apparel fabric — details coming soon.' : 'See product description.') + '<br>Weight &amp; flex: Specifications coming soon.</p>' +
+    '<div class="tabs"><button class="tab-btn on" onclick="qvTab(this,0)">Overview</button><button class="tab-btn" onclick="qvTab(this,1)">Specifications</button><button class="tab-btn" onclick="qvTab(this,2)">Shipping &amp; Returns</button><button class="tab-btn" onclick="qvTab(this,3)">Product Care</button></div>' +
+    '<div class="tab-panel on"><p>Conceptual design preview — final specifications and availability coming soon.</p><p style="margin-top:10px">Designed for the game. Built for the players. Every Queen City product is made to earn its place in your bag.</p></div>' +
+    '<div class="tab-panel"><p>Length: ' + (p.type === "shaft" ? '30&quot; / 60&quot;' : p.type === "apparel" ? 'Sizes S–XL' : 'One size') + '.</p><p style="margin-top:8px">Material: ' + (p.type === "shaft" ? 'Carbon fiber composite.' : p.type === "apparel" ? 'Athletic apparel fabric.' : 'See product description.') + '</p><p style="margin-top:8px">Weight &amp; flex: Specifications coming soon.</p></div>' +
+    '<div class="tab-panel"><p>Shipping and returns: the full policy will be posted before launch. No timelines have been set yet — join the waitlist and we will share them as soon as they are confirmed.</p></div>' +
+    '<div class="tab-panel"><p>' + careTextFor(p) + '</p></div>' +
+    '</div></div>' +
+    '<div class="related"><h3>You may also like</h3><div class="grid">' + related.map(cardHTML).join("") + '</div></div>';
+  openModal("qvModal");
+  modal.querySelectorAll("[data-close-modal]").forEach(function(b){ b.addEventListener("click", closeModals); });
+  bindForms();
+}
+function qvImg(i){
+  var p = byId[qvState.id];
+  var items = galleryItems(p);
+  qvState.img = i;
+  var main = document.getElementById("qvMain");
+  var it = items[i];
+  main.innerHTML = imgTag(it.src, p.name + " — " + it.label, it.zoom ? "zoomed" : "", false);
+  document.querySelectorAll(".qv-thumb").forEach(function(t, j){ t.classList.toggle("on", j === i); });
+}
+function qvVariant(btn, val){
+  qvState.variant = val;
+  btn.parentElement.querySelectorAll(".opt").forEach(function(o){ o.classList.remove("on"); });
+  btn.classList.add("on");
+}
+function qvQty(d){
+  qvState.qty = Math.max(1, Math.min(9, qvState.qty + d));
+  document.getElementById("qvQty").textContent = qvState.qty;
+}
+function qvAdd(){
+  if(addToBag(qvState.id, qvState.variant, qvState.qty)){ closeModals(); openBag(); }
+}
+function qvTab(btn, idx){
+  btn.parentElement.querySelectorAll(".tab-btn").forEach(function(b){ b.classList.remove("on"); });
+  btn.classList.add("on");
+  var panels = btn.closest(".qv-info").querySelectorAll(".tab-panel");
+  panels.forEach(function(pn, j){ pn.classList.toggle("on", j === idx); });
+}
+/* ---------- Static pages ---------- */
+function renderStory(){
+  return '<section class="sec"><div class="wrap">' +
+    '<div class="page-head" style="padding-top:0"><span class="eyebrow">Our Story</span><h1>Built from<br>the Game.</h1>' +
+    '<p>A new approach to lacrosse equipment, built around the players who make the game what it is.</p></div>' +
+    '<div class="story-hero">' + imgTag("lifestyle-field.webp", "Lacrosse players on the field", "", false) +
+    '<div class="wordmark"><img src="images/logo-wordmark.png" alt="Queen City Lacrosse script wordmark"></div></div>' +
+    '<div style="max-width:760px"><p style="font-size:18px;color:#4a5568">Queen City Lacrosse started with a simple idea: a lacrosse shaft should not have to look like a plain black tube, and a lacrosse brand should not have to come from somewhere else. Buffalo, New York — the Queen City of the Great Lakes — is a city built on hard work, tough winters, and a sporting culture that never backs down. That is the culture this brand comes from.</p>' +
+    '<p style="font-size:18px;color:#4a5568;margin-top:16px">The goal is to build equipment players recognize not only for how it looks, but for how it performs. Distinctive designs. Honest construction. And a brand that listens to the players holding the product before it ever reaches a store shelf.</p></div>' +
+    '<div class="values-img">' +
+    '<div class="value-img-card">' + imgTag("detail-carbon.webp", "Carbon fiber texture close-up") + '<div class="vi-body"><h3>Built with Purpose.</h3><p>Every product starts with a question: does it help the player? If the answer is not yes, it does not make the collection.</p></div></div>' +
+    '<div class="value-img-card">' + imgTag("shaft-galaxy.webp", "Galaxy shaft with cosmic graphics") + '<div class="vi-body"><h3>Designed to Stand Out.</h3><p>From the Core Collection to the Graphic Series, every shaft has its own personality — because players do too.</p></div></div>' +
+    '<div class="value-img-card">' + imgTag("lifestyle-field.webp", "Lacrosse players on the field") + '<div class="vi-body"><h3>Inspired by the Game.</h3><p>Queen City comes from the competitive culture of lacrosse — the ground balls, the practices, the moments that matter.</p></div></div>' +
+    '<div class="value-img-card">' + imgTag("lifestyle-buffalo.webp", "Buffalo industrial waterfront at dusk") + '<div class="vi-body"><h3>Rooted in Buffalo.</h3><p>Buffalo, New York — the Queen City of the Great Lakes. Hard work, tough winters, and a sporting culture that never backs down.</p></div></div>' +
+    '</div>' +
+    '<div style="margin-top:40px"><a class="btn btn-gold" href="#/shop">Shop the Collection</a> <a class="btn btn-ghost" href="#/contact">Get in Touch</a></div>' +
+    '</div></section>';
+}
+function renderContact(){
+  return '<section class="sec"><div class="wrap">' +
+    '<div class="page-head" style="padding-top:0"><span class="eyebrow">Contact</span><h1>Talk to<br>Queen City.</h1>' +
+    '<p>Questions about the collection, a drop, or working with Queen City? Send a message — we will get back to you.</p></div>' +
+    '<form class="form-card" data-contact-form>' +
+    '<div class="form-row"><div class="field"><label for="cName">Name</label><input id="cName" name="name" required placeholder="Your name"></div>' +
+    '<div class="field"><label for="cEmail">Email</label><input id="cEmail" type="email" name="email" required placeholder="you@example.com"></div></div>' +
+    '<div class="field"><label for="cMsg">Message</label><textarea id="cMsg" name="message" required placeholder="How can we help?"></textarea></div>' +
+    '<button class="btn btn-gold" type="submit">Send Message</button>' +
+    '<div class="confirm" data-contact-confirm style="display:none"><strong>Message saved — on this device only.</strong><br>The team inbox opens with Drop 001, and we\'ll reply to this email address then. Your message hasn\'t been sent anywhere yet.</div>' +
+    '<div class="form-error" data-contact-error style="display:none"></div>' +
+    '<p class="form-note">This form does not submit to a server yet — your message is confirmed on this page only. Queen City Lacrosse is based in Buffalo, New York.</p></form>' +
+    '</div></section>';
+}
+function faqItem(q, a){
+  return '<div class="acc-item"><button class="acc-btn" onclick="this.parentElement.classList.toggle(\'open\')">' + esc(q) + '<span>+</span></button><div class="acc-panel"><p>' + a + '</p></div></div>';
+}
+function renderFaq(){
+  return '<section class="sec"><div class="wrap"><div class="page-head" style="padding-top:0"><span class="eyebrow">FAQ</span><h1>Questions,<br>Answered.</h1></div>' +
+    '<div class="acc" style="max-width:820px">' +
+    faqItem("When does Drop 001 open?", "A launch date has not been set yet. Join the waitlist from your bag or the newsletter signup and we will email you the moment Drop 001 opens.") +
+    faqItem("Can I check out right now?", "Checkout opens when Drop 001 launches. Until then, your bag saves your picks on this device, and the waitlist notifies you first when checkout goes live.") +
+    faqItem("How do the limited drops work?", "Drop 001 — Queen City Origin is the first release. Drops 002–005 are coming soon. We do not claim specific quantities for any drop — when a drop is ready, it appears here.") +
+    faqItem("What sizes and lengths do products come in?", "Shafts come in 30&quot; and 60&quot; lengths. Apparel comes in sizes S–XL. Accessories are one size unless noted.") +
+    faqItem("What are the shipping and returns policies?", "The full shipping and returns policy will be posted before launch. No timelines or terms have been set yet — we will share them as soon as they are confirmed.") +
+    faqItem("What are the shaft specifications?", "Weight and flex specifications are coming soon. We do not publish numbers until they are verified, so every shaft lists \u201CSpecifications coming soon\u201D until then.") +
+    faqItem("How long does processing take?", "Processing times have not been set yet. The full timeline will be posted before Drop 001 launches.") +
+    faqItem("Can I return or exchange a product?", "The full returns and exchanges policy will be posted before launch. No terms have been set yet — we will share them as soon as they are confirmed.") +
+    faqItem("Which products will be available at launch?", "The Core Collection, the Graphic Series, and Drop 001 — Queen City Origin will be available when checkout opens. Drops 002–005 and the QC Equipment Bag are coming soon.") +
+    faqItem("How do I contact Queen City?", "Use the Contact page. There is no phone number or store address yet — Queen City is based in Buffalo, New York, and replies by email.") +
+    '</div></div></section>';
+}
+function legalPage(title, eyebrow, body){
+  return '<section class="sec"><div class="wrap"><div class="page-head" style="padding-top:0"><span class="eyebrow">' + eyebrow + '</span><h1>' + title + '</h1></div>' +
+    '<div class="legal"><div class="placeholder-note"><strong>Note: this policy is not yet final.</strong> The confirmed version will be posted before Drop 001 launches.</div>' + body + '</div></div></section>';
+}
+function renderShipping(){
+  return legalPage("Shipping &amp; Returns.", "Help",
+    '<h2>Shipping</h2><p>Queen City Lacrosse ships from Buffalo, New York. The full shipping policy — including rates, carriers, and delivery timelines — will be posted before Drop 001 launches. No timelines have been set yet.</p>' +
+    '<h2>Returns</h2><p>The full returns and exchanges policy will be posted before launch. We will share the terms as soon as they are confirmed.</p>' +
+    '<h2>Questions</h2><p>If you have a question before launch, contact us through the Contact page and we will reply by email.</p>');
+}
+function renderPrivacy(){
+  return legalPage("Privacy Policy.", "Help",
+    '<h2>What we collect</h2><p>When you join the waitlist, subscribe to the newsletter, or send a message, we collect the information you provide, such as your name and email address. Your bag is stored on your own device.</p>' +
+    '<h2>How we use it</h2><p>We use your information to notify you about launches, answer your messages, and share product updates you asked for. We do not sell your personal information.</p>' +
+    '<h2>Contact</h2><p>Questions about this policy can be sent through the Contact page.</p>');
+}
+function renderTerms(){
+  return legalPage("Terms &amp; Conditions.", "Help",
+    '<h2>The store</h2><p>Queen City Lacrosse is in development. Products shown are conceptual design previews; final specifications and availability are coming soon.</p>' +
+    '<h2>Orders</h2><p>Checkout is not live yet. Joining the waitlist does not place an order or charge you. Orders will be governed by the terms posted when checkout opens.</p>' +
+    '<h2>Products</h2><p>Product images are conceptual design previews. Colors, graphics, and details may change before launch.</p>');
+}
+/* ---------- Shafts landing ---------- */
+var shaftState = {coll:"all", color:"all", price:"all", avail:"all", len:'30"', sort:"featured"};
+function shaftList(){
+  var list = PRODUCTS.filter(function(p){ return p.type === "shaft"; });
+  if(shaftState.coll !== "all") list = list.filter(function(p){ return p.coll === shaftState.coll; });
+  if(shaftState.color !== "all") list = list.filter(function(p){ return p.color === shaftState.color; });
+  if(shaftState.avail === "avail") list = list.filter(function(p){ return !p.soon; });
+  if(shaftState.avail === "soon") list = list.filter(function(p){ return p.soon; });
+  if(shaftState.price === "100plus") list = list.filter(function(p){ return p.price > 100; });
+  if(shaftState.price === "150plus") list = list.filter(function(p){ return p.price >= 150; });
+  if(shaftState.sort === "low") list.sort(function(a,b){ return a.price - b.price; });
+  else if(shaftState.sort === "high") list.sort(function(a,b){ return b.price - a.price; });
+  else if(shaftState.sort === "newest"){
+    var rank = function(p){ if(p.isNew) return 0; return p.coll === "limited" ? 1 : p.coll === "graphic" ? 2 : 3; };
+    list.sort(function(a,b){ return rank(a) - rank(b); });
+  }
+  return list;
+}
+function renderShafts(){
+  var shafts = PRODUCTS.filter(function(p){ return p.type === "shaft"; });
+  var banner = shafts.filter(function(p){ return !p.soon; }).slice(0, 6);
+  var rows = shafts.map(function(p){
+    return '<tr><td>' + esc(p.name) + '</td><td>30" / 60"</td><td>Carbon fiber</td><td class="soon">Coming Soon</td><td class="soon">Coming Soon</td><td>' + esc(FINISH[p.id] || "—") + '</td><td class="soon">Coming Soon</td><td>' + money(p.price) + '</td></tr>';
+  }).join("");
+  var html = '<section class="sec"><div class="wrap">' +
+    '<div class="page-head" style="padding-top:0"><span class="eyebrow">The Shaft Collection</span><h1>Find Your Game.</h1>' +
+    '<p>Explore the Queen City shaft collections. Twenty-four shafts — Core, Graphic Series, and Limited Editions — each with its own identity.</p></div>' +
+    '<div class="shaft-banner">' + banner.map(function(p){
+      return '<div class="shaft-cell" onclick="goProduct(\'' + p.id + '\')">' + imgTag(p.img, p.name) + '<h4>' + esc(p.name.replace("Queen City ", "")) + '</h4><span class="price">' + money(p.price) + '</span></div>';
+    }).join("") + '</div>' +
+    '<div class="shop-layout" style="margin-top:28px"><aside class="filters" aria-label="Shaft filters"><h3>Filter Shafts</h3>' +
+    chipRow("Collection", [["all","All"],["core","Core"],["graphic","Graphic Series"],["limited","Limited Editions"]], shaftState.coll, "shaft:coll") +
+    chipRow("Color", [["all","All"],["Navy","Navy"],["Black","Black"],["White","White"],["Gold","Gold"],["Other","Other"]], shaftState.color, "shaft:color") +
+    chipRow("Price", [["all","All"],["100plus","$100+"],["150plus","$150+"]], shaftState.price, "shaft:price") +
+    chipRow("Availability", [["all","All"],["avail","Available at Launch"],["soon","Coming Soon"]], shaftState.avail, "shaft:avail") +
+    chipRow("Preferred Length", [["30","30&Prime;"],["60","60&Prime;"]], shaftState.len.replace(/"/g, ""), "shaft:len") +
+    '<div class="filter-group"><button class="btn btn-ghost btn-sm" onclick="shaftState.coll=\'all\';shaftState.color=\'all\';shaftState.price=\'all\';shaftState.avail=\'all\';renderShaftsGrid();render()">Reset Filters</button></div>' +
+    '</aside><div><div class="shop-bar"><div class="sort-box"><label for="shaftSort">Sort</label><select id="shaftSort">' +
+    '<option value="featured"' + (shaftState.sort === "featured" ? " selected" : "") + '>Featured</option>' +
+    '<option value="newest"' + (shaftState.sort === "newest" ? " selected" : "") + '>Newest</option>' +
+    '<option value="low"' + (shaftState.sort === "low" ? " selected" : "") + '>Price: Low to High</option>' +
+    '<option value="high"' + (shaftState.sort === "high" ? " selected" : "") + '>Price: High to Low</option></select></div></div>' +
+    '<div class="shop-count" id="shaftCount"></div><div class="grid" id="shaftGrid"></div></div></div>' +
+    '<div style="margin-top:56px"><div class="sec-head"><span class="eyebrow">Compare</span><h2 style="font-size:clamp(28px,4vw,40px)">Compare the Shafts.</h2><p>Length, material, finish, and price — side by side. Weight, flex, and grip specifications are coming soon; we do not publish numbers until they are verified.</p></div>' +
+    '<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Shaft</th><th>Length</th><th>Material</th><th>Weight</th><th>Flex</th><th>Finish</th><th>Grip</th><th>Price</th></tr></thead><tbody>' + rows + '</tbody></table></div></div>' +
+    '</div></section>';
+  return html;
+}
+function renderShaftsGrid(){
+  var grid = document.getElementById("shaftGrid");
+  if(!grid) return;
+  var list = shaftList();
+  document.getElementById("shaftCount").textContent = list.length + (list.length === 1 ? " shaft" : " shafts");
+  grid.innerHTML = list.length ? list.map(cardHTML).join("") : '<div class="empty"><h3>Nothing matches those filters.</h3><p>Try a different combination or reset the filters.</p></div>';
+}
+function bindShaftInputs(){
+  var sel = document.getElementById("shaftSort");
+  if(sel) sel.addEventListener("change", function(){ shaftState.sort = sel.value; renderShaftsGrid(); });
+}
+/* ---------- Category pages (apparel / accessories) ---------- */
+function goApparel(group){ apparelGroup = group || "all"; if(location.hash !== "#/apparel") location.hash = "#/apparel"; else render(); }
+function goAccessories(group){ accGroup = group || "all"; if(location.hash !== "#/accessories") location.hash = "#/accessories"; else render(); }
+function setCatGroup(cat, g){
+  if(cat === "apparel") apparelGroup = g; else accGroup = g;
+  render();
+}
+function renderCatPage(cat){
+  var isApp = cat === "apparel";
+  var title = isApp ? "Queen City Apparel." : "Queen City Accessories.";
+  var sub = isApp
+    ? "A small, carefully curated collection. Premium athletic clothing that complements the equipment — made to be worn on the field, in the gym, and everywhere else."
+    : "Grip, mesh, strings, and gear that complete the bag. Only the products Queen City intends to sell.";
+  var list = PRODUCTS.filter(function(p){ return p.cat === cat; });
+  if(isApp && apparelGroup !== "all") list = list.filter(function(p){ return APPAREL_GROUPS[apparelGroup].indexOf(p.id) !== -1; });
+  if(!isApp && accGroup !== "all") list = list.filter(function(p){ return ACC_GROUPS[accGroup].indexOf(p.id) !== -1; });
+  var groupChips = isApp
+    ? [["all","All"],["performance","Performance Tees"],["everyday","Everyday Tees"],["longsleeve","Long Sleeves"]]
+    : [["all","All"],["mesh","Mesh"],["strings","Strings"],["grip","Grip"],["other","Other Accessories"]];
+  var cur = isApp ? apparelGroup : accGroup;
+  var chips = '<div class="filter-group"><h4>Group</h4>' + groupChips.map(function(v){
+    return '<button class="chip' + (cur === v[0] ? ' on' : '') + '" onclick="setCatGroup(\'' + cat + '\',\'' + v[0] + '\')">' + v[1] + '</button>';
+  }).join("") + '</div>';
+  return '<section class="sec"><div class="wrap">' +
+    '<div class="page-head" style="padding-top:0"><span class="eyebrow">' + (isApp ? 'Apparel' : 'Accessories') + '</span><h1>' + title + '</h1><p>' + sub + '</p></div>' +
+    '<div class="shop-layout"><aside class="filters" aria-label="Filters"><h3>Filter</h3>' + chips +
+    '<div class="filter-group"><button class="btn btn-ghost btn-sm" onclick="setCatGroup(\'' + cat + '\',\'all\')">Reset</button></div>' +
+    '</aside><div><div class="shop-count">' + list.length + (list.length === 1 ? " product" : " products") + '</div><div class="grid">' + list.map(cardHTML).join("") + '</div></div></div>' +
+    '</div></section>';
+}
+/* ---------- Full product page ---------- */
+var pdState = {id:null, variant:null, qty:1, img:0};
+function renderProduct(id){
+  var p = byId[id];
+  if(!p) return '<section class="sec"><div class="wrap"><div class="page-head" style="padding-top:0"><h1>Product not found.</h1><p>This product does not exist yet.</p><p style="margin-top:16px"><a class="btn" href="#/shop">Shop the Collection</a></p></div></div></section>';
+  pdState = {id:id, variant: p.type === "shaft" ? shaftState.len : p.type === "apparel" ? APPAREL_SIZES[1] : "One Size", qty:1, img:0};
+  var items = galleryItems(p);
+  var frames = (p.type === "shaft") ? frames360(p) : [];
+  var has360 = frames.length >= 2;
+  var galleryHtml;
+  if(p.nophoto && !has360){
+    galleryHtml = '<div class="pd-gallery"><div class="nophoto"><span class="qc-mono lg">QC</span><p style="font-size:17px;font-weight:700">Product photography coming soon.</p><p>We are shooting this design now — the photos will be here before it launches.</p></div></div>';
+  } else if(has360){
+    galleryHtml = '<div class="pd-gallery">' + viewToggleHtml() + viewer360Html(p, frames) + photosGalleryHtml(p, items) + '</div>';
+  } else {
+    galleryHtml = '<div class="pd-gallery"><div class="pd-main" id="pdMain" onclick="openLightbox()">' + imgTag(items[0].src, p.name + " — " + items[0].label, "", false) + '</div>' +
+    '<div class="pd-thumbs">' + items.map(function(it, i){ return '<button class="pd-thumb' + (i === 0 ? ' on' : '') + '" onclick="pdImg(' + i + ')" aria-label="' + esc(it.label) + '">' + imgTag(it.src, it.label) + '</button>'; }).join("") + '</div>' +
+    '<p style="font-size:13px;color:#6b7280;margin-top:10px">Click the image to enlarge.</p></div>';
+  }
+  var badge = p.soon ? '<span class="badge badge-soon">Coming Soon</span>' : ((p.isNew ? '<span class="badge badge-new">New</span> ' : '') + (p.coll === "limited" ? '<span class="badge">Limited Edition</span>' : p.coll ? '<span class="badge badge-core">' + esc(COLL_LABEL[p.coll]) + '</span>' : ''));
+  var variantBlock = "";
+  if(p.type === "shaft"){
+    variantBlock = '<div class="opt-label">Length</div><div class="opt-row">' + SHAFT_LENGTHS.map(function(l){ return '<button class="opt' + (l === pdState.variant ? ' on' : '') + '" onclick="pdVariant(this,\'' + esc(l) + '\')">' + esc(l) + '</button>'; }).join("") + '</div>';
+  } else if(p.type === "apparel"){
+    variantBlock = '<div class="opt-label">Size</div><div class="opt-row">' + APPAREL_SIZES.map(function(s){ return '<button class="opt' + (s === pdState.variant ? ' on' : '') + '" onclick="pdVariant(this,\'' + esc(s) + '\')">' + esc(s) + '</button>'; }).join("") + '</div>';
+  }
+  var related;
+  if(p.type === "shaft") related = PRODUCTS.filter(function(x){ return x.id !== p.id && x.type === "shaft"; }).slice(0, 2).concat([byId["grip-tape"], byId["mesh-kit"]]);
+  else if(p.type === "apparel") related = PRODUCTS.filter(function(x){ return x.id !== p.id && x.cat === "apparel"; }).slice(0, 3);
+  else related = PRODUCTS.filter(function(x){ return x.id !== p.id && x.cat === "accessories"; }).slice(0, 3);
+  var addBlock = p.soon
+    ? '<button class="btn qv-add" disabled>Coming Soon</button>' +
+      '<form data-pd-waitlist class="pd-wait"><div class="field"><label>Email address</label><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address"></div><button class="btn btn-gold" type="submit" style="width:100%">Notify me when it launches</button></form>' +
+      '<div class="confirm" data-pd-wait-confirm style="display:none"><strong>You\'re on the waitlist — on this device.</strong><br>Email signup isn\'t connected yet, so this address is stored on this device only and hasn\'t been sent anywhere.</div>' +
+      '<div class="form-error" data-pd-wait-error style="display:none"></div>'
+    : '<button class="btn btn-gold qv-add" onclick="pdAdd()">Add to Bag — ' + money(p.price) + '</button><p class="qv-meta">Availability: ' + (p.id === 'drop-001' ? 'First release — checkout opens when Drop 001 launches.' : 'Available at launch — checkout opens when Drop 001 launches.') + '<br>Ships from Buffalo, New York.</p>';
+  return '<section class="sec"><div class="wrap">' +
+    '<div class="pd-crumb"><a href="#/shop">Shop</a> / <a href="#/' + (p.cat === "shafts" ? "shafts" : p.cat) + '">' + esc(CAT_LABEL[p.cat]) + '</a> / ' + esc(p.name) + '</div>' +
+    '<div class="pd-wrap" style="margin-top:20px">' + galleryHtml +
+    '<div class="pd-info">' + badge + '<h1>' + esc(p.name) + '</h1>' +
+    '<div class="pd-price">' + money(p.price) + '</div>' +
+    '<p class="pd-desc">' + esc(p.desc) + '</p>' +
+    '<div class="opt-label">Colorway</div><p style="font-weight:600">' + esc(p.color) + (p.coll ? ' &middot; ' + esc(COLL_LABEL[p.coll]) : '') + '</p>' +
+    variantBlock +
+    '<div class="opt-label">Quantity</div><div class="qty-row"><button class="qty-btn" onclick="pdQty(-1)" aria-label="Decrease quantity">&minus;</button><span class="qty-num" id="pdQty">1</span><button class="qty-btn" onclick="pdQty(1)" aria-label="Increase quantity">+</button></div>' +
+    addBlock +
+    '<p class="qv-meta">Material: ' + (p.type === "shaft" ? 'Carbon fiber.' : p.type === "apparel" ? 'Athletic apparel fabric — details coming soon.' : 'See product description.') + '<br>Weight &amp; flex: Specifications coming soon.<br>Conceptual design preview — final specifications and availability coming soon.</p>' +
+    '<div class="tabs"><button class="tab-btn on" onclick="pdTab(this,0)">Overview</button><button class="tab-btn" onclick="pdTab(this,1)">Specifications</button><button class="tab-btn" onclick="pdTab(this,2)">Shipping &amp; Returns</button><button class="tab-btn" onclick="pdTab(this,3)">Product Care</button></div>' +
+    '<div class="tab-panel on"><p>Conceptual design preview — final specifications and availability coming soon.</p><p style="margin-top:10px">Designed for the game. Built for the players. Every Queen City product is made to earn its place in your bag.</p></div>' +
+    '<div class="tab-panel"><p>Length: ' + (p.type === "shaft" ? '30&quot; / 60&quot;' : p.type === "apparel" ? 'Sizes S–XL' : 'One size') + '.</p><p style="margin-top:8px">Material: ' + (p.type === "shaft" ? 'Carbon fiber.' : p.type === "apparel" ? 'Athletic apparel fabric — details coming soon.' : 'See product description.') + '</p><p style="margin-top:8px">Weight &amp; flex: Specifications coming soon.</p></div>' +
+    '<div class="tab-panel"><p>Shipping and returns: the full policy will be posted before launch. No timelines have been set yet — join the waitlist and we will share them as soon as they are confirmed.</p></div>' +
+    '<div class="tab-panel"><p>' + careTextFor(p) + '</p></div>' +
+    '</div></div>' +
+    '<div style="margin-top:56px"><h3 style="font-size:24px;margin-bottom:16px">You may also like</h3><div class="grid">' + related.map(cardHTML).join("") + '</div></div>' +
+    '</div></section>';
+}
+function pdImg(i){
+  var p = byId[pdState.id];
+  var items = galleryItems(p);
+  pdState.img = i;
+  var main = document.getElementById("pdMain");
+  var it = items[i];
+  main.innerHTML = imgTag(it.src, p.name + " — " + it.label, it.zoom ? "zoomed" : "", false);
+  document.querySelectorAll(".pd-thumb").forEach(function(t, j){ t.classList.toggle("on", j === i); });
+}
+function pdVariant(btn, val){
+  pdState.variant = val;
+  btn.parentElement.querySelectorAll(".opt").forEach(function(o){ o.classList.remove("on"); });
+  btn.classList.add("on");
+}
+function pdQty(d){
+  pdState.qty = Math.max(1, Math.min(9, pdState.qty + d));
+  document.getElementById("pdQty").textContent = pdState.qty;
+}
+function pdAdd(){
+  if(addToBag(pdState.id, pdState.variant, pdState.qty)){ openBag(); }
+}
+function pdTab(btn, idx){
+  btn.parentElement.querySelectorAll(".tab-btn").forEach(function(b){ b.classList.remove("on"); });
+  btn.classList.add("on");
+  var panels = btn.closest(".pd-info").querySelectorAll(".tab-panel");
+  panels.forEach(function(pn, j){ pn.classList.toggle("on", j === idx); });
+}
+/* ---------- Lightbox ---------- */
+var lbState = {items:[], idx:0};
+function openLightbox(){
+  var p = byId[pdState.id];
+  var items = galleryItems(p);
+  if(!items.length) return;
+  lbState = {items:items, idx:pdState.img || 0};
+  showLb();
+  document.getElementById("lightbox").classList.add("open");
+}
+function showLb(){
+  var it = lbState.items[lbState.idx];
+  var p = byId[pdState.id];
+  var img = document.getElementById("lbImg");
+  img.src = IMG(it.src);
+  img.alt = p.name + " — " + it.label;
+  img.classList.remove("zoomed");
+  document.getElementById("lbCap").textContent = it.label + " — " + (lbState.idx + 1) + " / " + lbState.items.length;
+}
+function lbStep(d){
+  lbState.idx = (lbState.idx + d + lbState.items.length) % lbState.items.length;
+  showLb();
+}
+function closeLightbox(){ document.getElementById("lightbox").classList.remove("open"); }
+/* ---------- Search overlay ---------- */
+function searchProducts(q){
+  q = (q || "").trim().toLowerCase();
+  if(!q) return [];
+  return PRODUCTS.filter(function(p){
+    return (p.name + " " + (p.coll || "") + " " + (COLL_LABEL[p.coll] || "") + " " + p.color + " " + p.desc + " " + CAT_LABEL[p.cat]).toLowerCase().indexOf(q) !== -1;
+  });
+}
+function openSearch(){
+  document.getElementById("searchOverlay").classList.add("open");
+  var inp = document.getElementById("searchInput");
+  inp.value = "";
+  renderSearchResults("");
+  setTimeout(function(){ inp.focus(); }, 50);
+}
+function closeSearch(){ document.getElementById("searchOverlay").classList.remove("open"); }
+function renderSearchResults(q){
+  var box = document.getElementById("searchResults");
+  if(!(q || "").trim()){ box.innerHTML = '<div class="search-empty">Type to search shafts, apparel, and accessories.</div>'; return; }
+  var hits = searchProducts(q).slice(0, 8);
+  if(!hits.length){ box.innerHTML = '<div class="search-empty">No products match &ldquo;' + esc(q) + '&rdquo;. Try a shaft name, a collection, or a color.</div>'; return; }
+  box.innerHTML = hits.map(function(p){
+    var thumb = p.nophoto ? '<span class="qc-mono sm" style="width:56px;height:68px;border-radius:6px">QC</span>' : imgTag(p.img, p.name);
+    return '<div class="search-hit" onclick="closeSearch();goProduct(\'' + p.id + '\')">' + thumb +
+      '<div><div class="sh-name">' + esc(p.name) + '</div><div class="sh-meta">' + esc(p.color) + (p.coll ? ' &middot; ' + esc(COLL_LABEL[p.coll]) : '') + (p.soon ? ' &middot; Coming Soon' : '') + '</div></div>' +
+      '<span class="sh-price">' + money(p.price) + '</span></div>';
+  }).join("");
+}
+/* ---------- Community page ---------- */
+function renderCommunity(){
+  var areas = [
+    ["Player Spotlights", "Players who rep Queen City on the field — their stories, their game, their gear."],
+    ["Team Partnerships", "Working with school and club teams that want to build something with Queen City."],
+    ["Athlete Testing", "Players who test new shafts and apparel before they launch and tell us what to fix."],
+    ["Queen City Ambassadors", "A future ambassador program for players who live the brand on and off the field."],
+    ["Community Stories", "Stories from the game — Buffalo and beyond — told by the people playing it."]
+  ];
+  return '<section class="sec"><div class="wrap">' +
+    '<div class="page-head" style="padding-top:0"><span class="eyebrow">Player Community</span><h1>More Than<br>Equipment.</h1>' +
+    '<p>Queen City is building a community of players, coaches, and teams — built around the game, not around a logo.</p></div>' +
+    '<div class="comm-grid">' + areas.map(function(a){
+      return '<div class="comm-card"><span class="future">Future program — not active yet</span><h3>' + a[0] + '</h3><p>' + a[1] + '</p></div>';
+    }).join("") + '</div>' +
+    '<div style="margin-top:48px"><h2 style="font-size:clamp(26px,4vw,38px);margin-bottom:10px">Become Part of Queen City.</h2>' +
+    '<p style="color:#4a5568;max-width:640px;margin-bottom:24px">Interested in testing products, representing the brand, or being part of what comes next? Send in an application. The ambassador program is not active yet — applications will be considered when it launches.</p>' +
+    '<form class="form-card" data-join-form>' +
+    '<div class="form-row"><div class="field"><label for="jName">Name</label><input id="jName" name="name" required placeholder="Your name"></div>' +
+    '<div class="field"><label for="jEmail">Email</label><input id="jEmail" type="email" name="email" required placeholder="you@example.com"></div></div>' +
+    '<div class="form-row"><div class="field"><label for="jSchool">School or Club</label><input id="jSchool" name="school" placeholder="School or club team"></div>' +
+    '<div class="field"><label for="jPos">Position</label><input id="jPos" name="position" placeholder="Attack, midfield, defense, goalie"></div></div>' +
+    '<div class="form-row"><div class="field"><label for="jGrad">Graduation Year</label><input id="jGrad" name="grad" placeholder="e.g. 2028"></div>' +
+    '<div class="field"><label for="jSocial">Social Media Handle</label><input id="jSocial" name="social" placeholder="@yourhandle"></div></div>' +
+    '<div class="field"><label for="jWhy">Why do you want to represent Queen City?</label><textarea id="jWhy" name="why" placeholder="Tell us in a few sentences."></textarea></div>' +
+    '<button class="btn btn-gold" type="submit">Join the Team</button>' +
+    '<div class="confirm" data-join-confirm style="display:none"><strong>Application saved — on this device only.</strong><br>The program isn\'t active yet; applications will be considered when it launches, and your application hasn\'t been sent anywhere yet.</div>' +
+    '<div class="form-error" data-join-error style="display:none"></div>' +
+    '<p class="form-note">This form does not submit to a server yet — your application is saved on this device only.</p></form></div>' +
+    '</div></section>';
+}
+/* ---------- Router ---------- */
+var app = document.getElementById("app");
+function render(){
+  var hash = location.hash || "#/";
+  var route = hash.replace(/^#\/?/, "").split("?")[0];
+  v360Stop();
+  closeModals(); closeBag();
+  window.scrollTo(0, 0);
+  if(route === "" ) app.innerHTML = renderHome();
+  else if(route === "shop"){ app.innerHTML = renderShop(); renderShopGrid(); bindShopInputs(); }
+  else if(route === "shafts"){ app.innerHTML = renderShafts(); renderShaftsGrid(); bindShaftInputs(); }
+  else if(route === "apparel"){ app.innerHTML = renderCatPage("apparel"); }
+  else if(route === "accessories"){ app.innerHTML = renderCatPage("accessories"); }
+  else if(route === "community"){ app.innerHTML = renderCommunity(); }
+  else if(route.indexOf("product/") === 0){ app.innerHTML = renderProduct(route.slice(8)); v360Init(route.slice(8)); }
+  else if(route === "story") app.innerHTML = renderStory();
+  else if(route === "contact") app.innerHTML = renderContact();
+  else if(route === "faq") app.innerHTML = renderFaq();
+  else if(route === "shipping") app.innerHTML = renderShipping();
+  else if(route === "privacy") app.innerHTML = renderPrivacy();
+  else if(route === "terms") app.innerHTML = renderTerms();
+  else app.innerHTML = renderHome();
+  bindForms();
+  observeReveals();
+}
+function bindShopInputs(){
+  var s = document.getElementById("shopSearch");
+  if(s) s.addEventListener("input", function(){ shopState.q = s.value; renderShopGrid(); });
+  var sel = document.getElementById("shopSort");
+  if(sel) sel.addEventListener("change", function(){ shopState.sort = sel.value; renderShopGrid(); });
+}
+/* ---------- Email signup (shared, honest, integration-ready) ---------- */
+/* Validates, de-duplicates, and — only if EMAIL_ENDPOINT is set — posts the
+   email to a real collection service. With no endpoint configured, the
+   signup is stored on this device only and is NOT sent anywhere. */
+function submitEmailSignup(form, confirmEl, listKey, opts){
+  opts = opts || {};
+  if(form.dataset.submitting === "1") return false;
+  var input = form.querySelector('input[type="email"]');
+  var email = input ? input.value.trim().toLowerCase() : "";
+  var errEl = opts.errorEl || null;
+  function showError(msg){
+    if(errEl){ errEl.textContent = msg; errEl.style.display = "block"; }
+    if(confirmEl) confirmEl.style.display = "none";
+  }
+  function showConfirm(html){
+    if(confirmEl){ confirmEl.innerHTML = html; confirmEl.style.display = "block"; }
+    if(errEl) errEl.style.display = "none";
+  }
+  if(!EMAIL_RE.test(email)){ showError("Please enter a valid email address."); return false; }
+  var list = [];
+  try { list = JSON.parse(localStorage.getItem(listKey) || "[]"); } catch(e){ list = []; }
+  var dup = list.some(function(it){ return (it.v || it.email) === email; });
+  if(dup){ showConfirm(opts.dupText || "You're already on the list with this email."); return true; }
+  if(EMAIL_ENDPOINT){
+    form.dataset.submitting = "1";
+    var subBtn = form.querySelector('button[type="submit"]');
+    if(subBtn) subBtn.disabled = true;
+    var settle = function(){ form.dataset.submitting = ""; if(subBtn) subBtn.disabled = false; };
+    fetch(EMAIL_ENDPOINT, {method:"POST", headers:{"Content-Type":"application/json", "Accept":"application/json"}, body: JSON.stringify({email: email, list: opts.listName || listKey})})
+      .then(function(r){ if(!r.ok) throw new Error("Request failed"); settle(); showConfirm(opts.successText || "You're on the list — thanks!"); })
+      .catch(function(){ settle(); showError("Something went wrong — please try again."); });
+    return true;
+  }
+  if(opts.storeAll){
+    var d = {};
+    try { new FormData(form).forEach(function(v, k){ d[k] = v; }); } catch(e){}
+    d.email = email;
+    d.at = new Date().toISOString();
+    list.push(d);
+  } else {
+    list.push({v: email, at: new Date().toISOString()});
+  }
+  try { localStorage.setItem(listKey, JSON.stringify(list)); } catch(e){}
+  showConfirm(opts.localText);
+  return true;
+}
+function bindForms(){
+  document.querySelectorAll("form[data-newsletter]").forEach(function(f){
+    if(f.dataset.bound) return; f.dataset.bound = "1";
+    f.addEventListener("submit", function(e){
+      e.preventDefault();
+      var c = f.parentElement.querySelector("[data-news-confirm]");
+      var err = f.parentElement.querySelector("[data-news-error]");
+      if(submitEmailSignup(f, c, "qcl-newsletter", {errorEl: err, listName: "newsletter", localText: MSG_NEWS_LOCAL, successText: MSG_NEWS_OK})) f.reset();
+    });
+  });
+  document.querySelectorAll("form[data-waitlist]").forEach(function(f){
+    if(f.dataset.bound) return; f.dataset.bound = "1";
+    f.addEventListener("submit", function(e){
+      e.preventDefault();
+      var c = f.parentElement.querySelector("[data-wait-confirm]");
+      var err = f.parentElement.querySelector("[data-wait-error]");
+      if(submitEmailSignup(f, c, "qcl-waitlist", {errorEl: err, listName: "waitlist", localText: MSG_WAIT_LOCAL, successText: MSG_WAIT_OK})) f.reset();
+    });
+  });
+  document.querySelectorAll("form[data-pd-waitlist]").forEach(function(f){
+    if(f.dataset.bound) return; f.dataset.bound = "1";
+    f.addEventListener("submit", function(e){
+      e.preventDefault();
+      var c = f.parentElement.querySelector("[data-pd-wait-confirm]");
+      var err = f.parentElement.querySelector("[data-pd-wait-error]");
+      if(submitEmailSignup(f, c, "qcl-waitlist", {errorEl: err, listName: "waitlist", localText: MSG_WAIT_LOCAL, successText: MSG_WAIT_OK})) f.reset();
+    });
+  });
+  document.querySelectorAll("form[data-join-form]").forEach(function(f){
+    if(f.dataset.bound) return; f.dataset.bound = "1";
+    f.addEventListener("submit", function(e){
+      e.preventDefault();
+      var c = f.querySelector("[data-join-confirm]");
+      var err = f.querySelector("[data-join-error]");
+      if(submitEmailSignup(f, c, "qcl-join", {errorEl: err, listName: "join", localText: MSG_JOIN_LOCAL, successText: MSG_JOIN_OK, storeAll: true, dupText: "We already have a submission from this email address."})) f.reset();
+    });
+  });
+  document.querySelectorAll("form[data-contact-form]").forEach(function(f){
+    if(f.dataset.bound) return; f.dataset.bound = "1";
+    f.addEventListener("submit", function(e){
+      e.preventDefault();
+      var c = f.querySelector("[data-contact-confirm]");
+      var err = f.querySelector("[data-contact-error]");
+      if(submitEmailSignup(f, c, "qcl-contact", {errorEl: err, listName: "contact", localText: MSG_CONTACT_LOCAL, successText: MSG_CONTACT_OK, storeAll: true, dupText: "We already have a submission from this email address."})) f.reset();
+    });
+  });
+}
+function observeReveals(){
+  var els = document.querySelectorAll(".reveal");
+  if(!("IntersectionObserver" in window) || (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)){
+    els.forEach(function(el){ el.classList.add("in"); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); } });
+  }, {threshold: 0.12});
+  els.forEach(function(el){ io.observe(el); });
+}
+/* ---------- Global wiring ---------- */
+document.getElementById("bagBtn").addEventListener("click", openBag);
+document.querySelector("[data-close-bag]").addEventListener("click", closeBag);
+document.getElementById("overlay").addEventListener("click", function(){ closeModals(); closeBag(); });
+document.getElementById("checkoutBtn").addEventListener("click", function(){ closeBag(); openModal("waitModal"); });
+document.querySelectorAll("[data-close-modal]").forEach(function(b){ b.addEventListener("click", closeModals); });
+document.getElementById("menuBtn").addEventListener("click", function(){ document.getElementById("mMenu").classList.add("open"); });
+document.getElementById("menuClose").addEventListener("click", function(){ document.getElementById("mMenu").classList.remove("open"); });
+document.getElementById("mSearchBtn").addEventListener("click", function(){ document.getElementById("mMenu").classList.remove("open"); openSearch(); });
+document.getElementById("mBagBtn").addEventListener("click", function(){ document.getElementById("mMenu").classList.remove("open"); openBag(); });
+document.getElementById("searchBtn").addEventListener("click", openSearch);
+document.getElementById("searchClose").addEventListener("click", closeSearch);
+document.getElementById("searchInput").addEventListener("input", function(){ renderSearchResults(this.value); });
+document.getElementById("lbClose").addEventListener("click", closeLightbox);
+document.getElementById("lbPrev").addEventListener("click", function(e){ e.stopPropagation(); lbStep(-1); });
+document.getElementById("lbNext").addEventListener("click", function(e){ e.stopPropagation(); lbStep(1); });
+document.getElementById("lbImg").addEventListener("click", function(){ this.classList.toggle("zoomed"); });
+window.addEventListener("scroll", function(){
+  var h = document.querySelector("header.site");
+  if(h) h.classList.toggle("scrolled", window.scrollY > 8);
+}, {passive:true});
+document.querySelectorAll("#mMenu a").forEach(function(a){ a.addEventListener("click", function(){ document.getElementById("mMenu").classList.remove("open"); }); });
+/* Nav dropdowns: click toggles (touch), hover handled by CSS :hover via .open on mouseenter */
+document.querySelectorAll("[data-nav]").forEach(function(item){
+  item.addEventListener("mouseenter", function(){ item.classList.add("open"); });
+  item.addEventListener("mouseleave", function(){ item.classList.remove("open"); });
+  var link = item.querySelector("[data-navlink]");
+  link.addEventListener("click", function(e){
+    if(window.matchMedia("(hover: none)").matches){ e.preventDefault(); item.classList.toggle("open"); }
+  });
+});
+/* Close open nav dropdowns when clicking anywhere outside them (on touch
+   there is no mouseleave, so a dropdown could otherwise get stuck open).
+   Tapping a dropdown link also closes the menu after navigating. */
+document.addEventListener("click", function(e){
+  if(!e.target.closest("[data-nav]") || e.target.closest(".dropdown a")){
+    document.querySelectorAll("[data-nav].open").forEach(function(n){ n.classList.remove("open"); });
+  }
+});
+/* Shop preset links (nav dropdowns, footer, mobile menu) */
+document.querySelectorAll("[data-shop]").forEach(function(a){
+  a.addEventListener("click", function(){
+    var v = a.getAttribute("data-shop");
+    if(v === "all") goShop({});
+    else if(v === "newest") goShop({newest:true});
+    else if(v.indexOf("cat:") === 0) goShop({cat: v.slice(4)});
+    else if(v.indexOf("coll:") === 0) goShop({coll: v.slice(5)});
+  });
+});
+/* Apparel / accessories group links (nav dropdowns, footer, mobile menu) */
+document.querySelectorAll("[data-apparel]").forEach(function(a){
+  a.addEventListener("click", function(){ goApparel(a.getAttribute("data-apparel")); });
+});
+document.querySelectorAll("[data-acc]").forEach(function(a){
+  a.addEventListener("click", function(){ goAccessories(a.getAttribute("data-acc")); });
+});
+document.querySelectorAll("[data-join]").forEach(function(a){
+  a.addEventListener("click", function(){
+    setTimeout(function(){ var el = document.getElementById("join"); if(el) el.scrollIntoView({behavior:"smooth"}); }, 80);
+  });
+});
+document.addEventListener("keydown", function(e){ if(e.key === "Escape"){ closeModals(); closeBag(); closeLightbox(); closeSearch(); document.getElementById("mMenu").classList.remove("open"); document.querySelectorAll("[data-nav].open").forEach(function(n){ n.classList.remove("open"); }); } });
+window.addEventListener("hashchange", render);
+updateBagUI();
+render();
+window.__qcl = {PRODUCTS:PRODUCTS, byId:byId, shopState:shopState, shaftState:shaftState, applyFilters:applyFilters, goShop:goShop, setFilter:setFilter, openQuickView:openQuickView, addToBag:addToBag, setQty:setQty, removeFromBag:removeFromBag, bag:bag, render:render, renderShopGrid:renderShopGrid, renderProduct:renderProduct, renderShafts:renderShafts, renderShaftsGrid:renderShaftsGrid, renderCatPage:renderCatPage, renderCommunity:renderCommunity, goProduct:goProduct, goApparel:goApparel, goAccessories:goAccessories, searchProducts:searchProducts, openSearch:openSearch, closeSearch:closeSearch, openLightbox:openLightbox, closeLightbox:closeLightbox, lbStep:lbStep, galleryItems:galleryItems, FINISH:FINISH, FRAMES360:FRAMES360, frames360:frames360, v360:v360, v360Show:v360Show, v360Step:v360Step, v360Go:v360Go, v360Play:v360Play, v360Stop:v360Stop, v360Mode:v360Mode, v360Init:v360Init, v360Down:v360Down, v360Move:v360Move, v360Up:v360Up};
+</script>
+</body>
+</html>
